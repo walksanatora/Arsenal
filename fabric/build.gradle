@@ -36,10 +36,10 @@ dependencies {
     modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
-    implementation(include('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2'))
-    //modApi 'com.github.Truly-Modular.Modular-Item-API:Modular-Item-API:0.3.5-SNAPSHOT-1.20.1'
 
-    modImplementation "maven.modrinth:modular-item-api:${miapi_version}"
+    implementation(include('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2'))
+    modImplementation "maven.modrinth:modular-item-api:${miapi_version}-fabric"
+    modApi("com.github.RedPxnda.Nucleus:nucleus:${rootProject.nucleus_version}")
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }

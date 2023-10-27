@@ -1,5 +1,6 @@
 package smartin.arsenal.forge;
 
+import dev.architectury.event.events.common.LifecycleEvent;
 import dev.architectury.platform.forge.EventBuses;
 import smartin.arsenal.Arsenal;
 import net.minecraftforge.fml.common.Mod;

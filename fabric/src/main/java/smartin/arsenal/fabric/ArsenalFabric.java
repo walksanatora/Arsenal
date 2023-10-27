@@ -1,5 +1,6 @@
 package smartin.arsenal.fabric;
 
+import dev.architectury.event.events.common.LifecycleEvent;
 import smartin.arsenal.Arsenal;
 import net.fabricmc.api.ModInitializer;
 
