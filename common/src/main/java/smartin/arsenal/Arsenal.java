@@ -1,17 +1,12 @@
 package smartin.arsenal;
 
-import net.minecraft.item.CrossbowItem;
-import smartin.miapi.config.MiapiConfig;
-import smartin.miapi.effects.CryoStatusEffect;
-import smartin.miapi.item.modular.items.ModularCrossbow;
+import dev.architectury.event.events.common.LifecycleEvent;
 
 public class Arsenal
 {
 	public static final String MOD_ID = "arsenal";
 
 	public static void init() {
-		CryoStatusEffect cryoStatusEffect;
-		ModularCrossbow crossbow;
-
+		LifecycleEvent.SETUP.register(()-> new GenerateModularConverters());
 	}
 }
