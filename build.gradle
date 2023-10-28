@@ -51,7 +51,7 @@ tasks.register('buildBoth') {
                 from fabricJar
                 into project.file('Merged')
                 rename { fileName ->
-                    "Truly-Modular-arsenal-${modVersion}-${minecraftVersion}-fabric.jar"
+                    "Truly-Modular-Arsenal-${modVersion}-${minecraftVersion}-fabric.jar"
                 }
             }
         }
@@ -61,7 +61,7 @@ tasks.register('buildBoth') {
                 from forgeJar
                 into project.file('Merged')
                 rename { fileName ->
-                    "Truly-Modular-arsenal-${modVersion}-${minecraftVersion}-forge.jar"
+                    "Truly-Modular-Arsenal-${modVersion}-${minecraftVersion}-forge.jar"
                 }
             }
         }
