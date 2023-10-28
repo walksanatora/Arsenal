@@ -1,10 +1,9 @@
 package smartin.arsenal.forge;
 
-import dev.architectury.event.events.common.LifecycleEvent;
 import dev.architectury.platform.forge.EventBuses;
-import smartin.arsenal.Arsenal;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import smartin.arsenal.Arsenal;
 
 @Mod(Arsenal.MOD_ID)
 public class ArsenalForge {

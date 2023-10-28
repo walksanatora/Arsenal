@@ -1,8 +1,7 @@
 package smartin.arsenal.fabric;
 
-import dev.architectury.event.events.common.LifecycleEvent;
-import smartin.arsenal.Arsenal;
 import net.fabricmc.api.ModInitializer;
+import smartin.arsenal.Arsenal;
 
 public class ArsenalFabric implements ModInitializer {
     @Override
