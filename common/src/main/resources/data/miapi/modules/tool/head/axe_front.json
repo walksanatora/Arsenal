@@ -28,6 +28,9 @@
         "tool",
         "head"
     ],
+    "better_combat_config": {
+        "parent": "bettercombat:axe"
+    },
     "allowedInSlots": [
         "tool_head"
     ],
