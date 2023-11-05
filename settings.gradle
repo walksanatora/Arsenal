@@ -7,6 +7,8 @@ pluginManagement {
     }
 }
 
+rootProject.name = 'arsenal'
+
 include("common")
 include("fabric")
 include("forge")
