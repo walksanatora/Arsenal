@@ -23,6 +23,15 @@
         "guard",
         "guard_normal"
     ],
+    "attributes": [
+        {
+            "attribute": "generic.attack_speed",
+            "value": "0.10",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+        }
+    ],
     "priority": 1,
     "repairPriority": 0,
     "allowedMaterial": {
@@ -37,8 +46,7 @@
         ],
         "cost": 1
     },
-    "durability": "[material.durability]* 0.25",
-    "blocking": 10,
+    "durability": "[material.durability]* 0.15",
     "abilities": [
         "block"
     ]
