@@ -42,6 +42,7 @@
             "allowed": [
                 "polearm_blade"
             ],
+            "translationKey": "miapi.slot.sword_blade.name",
             "transform": {
                 "rotation": {
                     "x": 0.0,

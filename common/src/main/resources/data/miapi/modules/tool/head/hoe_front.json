@@ -44,6 +44,7 @@
             "allowed": [
                 "tool_head_back"
             ],
+            "translationKey": "miapi.slot.tool_back.name",
             "transform": {
                 "rotation": {
                     "x": 0.0,

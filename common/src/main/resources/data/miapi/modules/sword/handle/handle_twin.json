@@ -31,6 +31,7 @@
                 "sword_guard",
                 "sword_blade_small"
             ],
+            "translationKey": "miapi.slot.guard.name",
             "transform": {
                 "rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
                 "translation": {"x": 2.0, "y": 2.0, "z": 0.0},
@@ -42,6 +43,7 @@
                 "sword_guard",
                 "sword_blade_small"
             ],
+            "translationKey": "miapi.slot.pommel.name",
             "transform": {
                 "rotation": {"x": 0.0, "y": 0.0, "z": 180.0},
                 "translation": {"x": 4.0, "y": 4.0, "z": 0.0},

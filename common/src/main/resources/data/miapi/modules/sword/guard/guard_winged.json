@@ -31,6 +31,7 @@
                     "sword_blade_small",
                     "sword_blade_large"
                 ],
+                "translationKey": "miapi.slot.sword_blade.name",
                 "transform": {
                     "rotation": {
                         "x": 0.0,
