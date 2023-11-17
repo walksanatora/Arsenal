@@ -72,6 +72,12 @@
             "operation": "+",
             "slot": "mainhand",
             "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+        },
+        {
+            "attribute": "miapi:generic.attack_range",
+            "value": "0.5",
+            "operation": "+",
+            "slot": "mainhand"
         }
     ],
     "blocking": "[material.flexibility]* 3 + 15",
