@@ -33,6 +33,11 @@
     "miapi.module.blade_greatsword.description": "A massive two-handed sword used for heavy strikes.",
     "miapi.module.blade_greatsword.short_description": "A Greatsword Blade head.",
 
+    "miapi.module.blade_zweihaender": "Zweihänder Blade",
+    "miapi.module.blade_zweihaender.name": "[translation.[material.translation]]Zweihänder",
+    "miapi.module.blade_zweihaender.description": "A medival german Blade, great for parrying and its thin blade can pierce armor.",
+    "miapi.module.blade_zweihaender.short_description": "A medival german Blade, great for parrying and its thin blade can pierce armor.",
+
     "miapi.module.blade_katana": "Katana Blade",
     "miapi.module.blade_katana.name": "[translation.[material.translation]]Katana",
     "miapi.module.blade_katana.description": "A traditional Japanese sword known for its sharpness and precision.",
