@@ -12,7 +12,11 @@
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": {},
+  "entrypoints": {
+    "main": [
+      "smartin.arsenal.fabric.ArsenalFabric"
+    ]
+  },
   "mixins": [
     "arsenal.mixins.json",
     "arsenal-common.mixins.json"
