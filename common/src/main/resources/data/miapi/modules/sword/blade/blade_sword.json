@@ -34,9 +34,6 @@
             "miapi:weapon"
         ]
     },
-    "default_enchants": {
-        "minecraft:sharpness": 5
-    },
     "tag": [
         "blade",
         "polearm_spear"
