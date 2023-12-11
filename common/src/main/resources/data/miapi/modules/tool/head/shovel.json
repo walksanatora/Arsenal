@@ -36,7 +36,8 @@
     ],
     "enchantments": {
         "allowed": [
-            "miapi:tool"
+            "miapi:tool",
+            "miapi:shovel"
         ]
     },
     "mining_level": {

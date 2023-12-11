@@ -39,7 +39,8 @@
     ],
     "enchantments": {
         "allowed": [
-            "miapi:tool"
+            "miapi:tool",
+            "miapi:axe"
         ]
     },
     "slots": {
