@@ -7,7 +7,7 @@
                 "module": "pickaxe_back"
             }
         },
-        "properties": {
+        "replace": {
             "mining_level": {
                 "pickaxe": "[material.mining_level]"
             },

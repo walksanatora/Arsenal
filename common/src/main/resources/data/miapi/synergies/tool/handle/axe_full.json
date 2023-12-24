@@ -7,7 +7,7 @@
                 "module": "axe_front"
             }
         },
-        "properties": {
+        "replace": {
             "attributes": [
                 {
                     "attribute": "miapi:generic.mining_speed.axe",

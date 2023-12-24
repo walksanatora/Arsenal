@@ -8,7 +8,7 @@
                 "tag": "one_handed_handle"
             }
         },
-        "properties": {
+        "replace": {
             "better_combat_config": {
                 "parent": "bettercombat:sword"
             }

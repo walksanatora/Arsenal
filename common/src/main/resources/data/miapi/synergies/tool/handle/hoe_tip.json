@@ -7,7 +7,7 @@
                 "module": "hoe_front"
             }
         },
-        "properties": {
+        "replace": {
             "texture": {
                 "path": "miapi:models/item/tool/handle/tool_tip/[material.texture].json",
                 "transform": {

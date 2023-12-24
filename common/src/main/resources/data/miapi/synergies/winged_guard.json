@@ -7,7 +7,7 @@
                 "tag": "blade_short"
             }
         },
-        "properties": {
+        "replace": {
             "attributes": [
                 {
                     "attribute": "generic.attack_damage",

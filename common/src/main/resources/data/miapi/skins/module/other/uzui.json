@@ -1,7 +1,7 @@
 {
     "path": "uzui",
     "module": "blade_katana",
-    "properties": {
+    "replace": {
         "texture": {
             "path": "miapi:models/item/sword/blade/katana/uzui/[material.texture].json",
             "transform": {

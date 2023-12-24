@@ -8,7 +8,7 @@
                 "tag": "twin_handle"
             }
         },
-        "properties": {
+        "replace": {
             "better_combat_config": {
                 "parent": "bettercombat:twin_blade"
             }

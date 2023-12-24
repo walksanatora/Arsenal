@@ -1,7 +1,7 @@
 {
     "path": "master",
     "module": "blade_longsword",
-    "properties": {
+    "replace": {
         "texture": {
             "path": "miapi:models/item/sword/blade/longsword/master/[material.texture].json",
             "transform": {

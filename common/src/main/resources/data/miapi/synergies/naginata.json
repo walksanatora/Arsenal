@@ -7,7 +7,7 @@
                 "module": "handle_polearm"
             }
         },
-        "properties": {
+        "replace": {
             "displayName": "miapi.module.blade_naginata.name",
             "itemId": "miapi:modular_naginata"
         }

@@ -1,7 +1,7 @@
 {
     "path": "buster",
     "module": "blade_greatsword",
-    "properties": {
+    "replace": {
         "texture": {
             "path": "miapi:models/item/sword/blade/greatsword/buster/[material.texture].json",
             "transform": {
@@ -29,7 +29,11 @@
     },
     "condition": {
         "type": "miapi_perm",
-        "perms": ["user","supporter","buster"]
+        "perms": [
+            "user",
+            "supporter",
+            "buster"
+        ]
     },
     "texture": {
         "color": "FFFFFF",

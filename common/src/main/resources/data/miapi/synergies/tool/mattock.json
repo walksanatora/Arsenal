@@ -7,7 +7,7 @@
                 "module": "pickaxe_back"
             }
         },
-        "properties": {
+        "replace": {
             "displayName": "miapi.module.mattock.name",
             "itemId": "miapi:modular_mattock"
         }

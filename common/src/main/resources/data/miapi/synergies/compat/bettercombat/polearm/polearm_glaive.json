@@ -8,7 +8,7 @@
                 "tag": "polearm_handle"
             }
         },
-        "properties": {
+        "replace": {
             "better_combat_config": {
                 "parent": "bettercombat:glaive"
             }

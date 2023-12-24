@@ -10,7 +10,7 @@
                 }
             }
         },
-        "properties": {
+        "replace": {
             "attributes": [
                 {
                     "attribute": "generic.attack_damage",

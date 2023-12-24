@@ -7,7 +7,7 @@
                 "module": "pickaxe_front"
             }
         },
-        "properties": {
+        "replace": {
             "mining_level": {
                 "pickaxe": "0"
             },
