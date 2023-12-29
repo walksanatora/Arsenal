@@ -43,15 +43,6 @@ dependencies {
     //modImplementation "maven.modrinth:modular-item-api:${miapi_version}-forge"
 }
 
-tasks.register('githubPublish') {
-    finalizedBy ':common:publish'
-    group = 'publishing'
-
-    doLast {
-        publishing.publications.mavenCommon.groupId = "com.${rootProject.github}"
-    }
-}
-
 processResources {
     inputs.property "version", project.version
 
@@ -86,6 +77,15 @@ sourcesJar {
 components.java {
     withVariantsFromConfiguration(project.configurations.shadowRuntimeElements) {
         skip()
+    }
+}
+
+tasks.register('githubPublish') {
+    finalizedBy ':forge:publish'
+    group = 'publishing'
+
+    doLast {
+        publishing.publications.mavenForge.groupId = "com.${rootProject.github}"
     }
 }
 
