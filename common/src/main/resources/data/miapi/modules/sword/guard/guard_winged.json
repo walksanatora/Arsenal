@@ -85,7 +85,7 @@
         ],
         "cost": 2
     },
-    "durability": "[material.durability]* 0.25",
+    "durability": "[material.durability]* 0.05",
     "guiOffset": {
         "sizeX": 1,
         "sizeY": 1

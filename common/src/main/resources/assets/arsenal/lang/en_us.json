@@ -80,7 +80,7 @@
 
     "miapi.module.guard_normal": "Normal Guard",
     "miapi.module.guard_normal.name": "[translation.[material.translation]]Normal Guard",
-    "miapi.module.guard_normal.description": "A standard guard suitable for most sword types.",
+    "miapi.module.guard_normal.description": "A standard guard suitable for most sword types.\nHas increased durability.",
     "miapi.module.guard_normal.short_description": "A Normal Guard",
 
     "miapi.module.guard_slim": "Slim Guard",

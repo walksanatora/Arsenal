@@ -45,7 +45,7 @@
         ],
         "cost": 1
     },
-    "durability": "[material.durability]* 0.15",
+    "durability": "[material.durability]* 0.02",
     "abilities": [
         "block"
     ]
