@@ -13,7 +13,18 @@ repositories {
     maven { url 'https://maven.fabricmc.net/' }
     maven { url 'https://jitpack.io' }
     maven { url 'https://maven.terraformersmc.com/' }
+    maven { url 'https://maven.ladysnake.org/releases' }
     maven { url 'https://www.cursemaven.com' }
+    maven {
+        url "https://maven.jamieswhiteshirt.com/libs-release"
+        content {
+            includeGroup "com.jamieswhiteshirt"
+        }
+    }
+    maven {
+        url 'http://trulymodular.duckdns.org/maven'
+        allowInsecureProtocol = true
+    }
     maven {
         name = 'Modrinth'
         url = 'https://api.modrinth.com/maven'
@@ -37,9 +48,13 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
 
+
+    annotationProcessor(group: 'com.github.LlamaLad7', name: 'MixinExtras', version: "${rootProject.mixin_extras_version}")
+    implementation(include(group: 'com.github.LlamaLad7', name: 'MixinExtras', version: "${rootProject.mixin_extras_version}"))
     implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
-    modImplementation "maven.modrinth:modular-item-api:${miapi_version}-fabric"
-    modApi("com.github.RedPxnda.Nucleus:nucleus:${rootProject.nucleus_version}")
+    include modImplementation("com.jamieswhiteshirt:reach-entity-attributes:$rootProject.fabric_reach_range_version")
+    modApi "maven.modrinth:modular-item-api:${miapi_version}-fabric"
+    modApi(include("com.RedPxnda.Nucleus:nucleus-fabric:${rootProject.minecraft_version}-${rootProject.nucleus_version}")) { transitive = false }
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
