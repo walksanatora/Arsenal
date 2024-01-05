@@ -49,6 +49,9 @@ dependencies {
     modApi("top.theillusivec4.caelus:caelus-forge:${rootProject.forge_caelus_version}")
     //modCompileOnly ( "maven.modrinth:modular-item-api:${miapi_version}-fabric")
     //modLocalRuntime ( "maven.modrinth:modular-item-api:${miapi_version}-forge")
+
+    //modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-forge:${rootProject.miapi_version}")
+
     modApi files('libs/miapi.jar')
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }

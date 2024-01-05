@@ -5,8 +5,8 @@
             "condition": {
                 "type": "otherModule",
                 "condition": {
-                    "type": "module",
-                    "module": "handle_polearm"
+                    "type": "tag",
+                    "tag": "no_crossbow_ammo"
                 }
             }
         },

@@ -55,7 +55,8 @@ dependencies {
     //include modImplementation("com.jamieswhiteshirt:reach-entity-attributes:$rootProject.fabric_reach_range_version")
     //modApi "maven.modrinth:modular-item-api:${miapi_version}-fabric"
     //modApi(include("com.RedPxnda.Nucleus:nucleus-fabric:${rootProject.minecraft_version}-${rootProject.nucleus_version}")) { transitive = false }
-    //modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-forge:1.1.5-${rootProject.minecraft_version}") { transitive = false }
+
+    //modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-fabric:${rootProject.miapi_version}")
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
