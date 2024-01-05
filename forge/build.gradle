@@ -40,13 +40,16 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
 
-    implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
-    // forgeRuntimeLibrary('com.github.ezylang:EvalEx:3.0.4') // because nucleus uses it
-    // annotationProcessor(group: 'com.github.LlamaLad7', name: 'MixinExtras', version: "${rootProject.mixin_extras_version}")
-    // forgeRuntimeLibrary(/*include(*/ group: 'com.github.LlamaLad7', name: 'MixinExtras', version: "${rootProject.mixin_extras_version}"/*)*/)
+    forgeRuntimeLibrary('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
+    forgeRuntimeLibrary('com.github.ezylang:EvalEx:3.0.4') // because nucleus uses it
+    annotationProcessor(group: 'com.github.LlamaLad7', name: 'MixinExtras', version: "${rootProject.mixin_extras_version}")
+    forgeRuntimeLibrary(/*include(*/ group: 'com.github.LlamaLad7', name: 'MixinExtras', version: "${rootProject.mixin_extras_version}"/*)*/)
+
     modApi("com.RedPxnda.Nucleus:nucleus-forge:${rootProject.minecraft_version}-${rootProject.nucleus_version}")
     modApi("top.theillusivec4.caelus:caelus-forge:${rootProject.forge_caelus_version}")
-    //modApi ( "maven.modrinth:modular-item-api:${miapi_version}-forge")
+    //modCompileOnly ( "maven.modrinth:modular-item-api:${miapi_version}-fabric")
+    //modLocalRuntime ( "maven.modrinth:modular-item-api:${miapi_version}-forge")
+    modApi files('libs/miapi.jar')
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
