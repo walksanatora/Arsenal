@@ -45,6 +45,18 @@
     },
     "attributes": [
         {
+            "attribute": "miapi:generic.reach",
+            "value": "-0.5",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.attack_range",
+            "value": "-0.5",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
             "attribute": "miapi:generic.mining_speed.shovel",
             "value": "[material.mining_speed]",
             "operation": "+",
