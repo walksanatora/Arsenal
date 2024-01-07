@@ -214,7 +214,7 @@
         },
         {
             "attribute": "generic.attack_speed",
-            "value": "-3.0",
+            "value": "-2.5",
             "operation": "+",
             "slot": "mainhand",
             "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
