@@ -1,7 +1,7 @@
 {
-    "name": "shovel",
+    "name": "pickaxe_front",
     "texture": {
-        "path": "miapi:models/item/tool/head/shovel/[material.texture].json",
+        "path": "miapi:models/item/tool/head/pickaxe_front/[material.texture].json",
         "transform": {
             "rotation": {
                 "x": 0.0,
@@ -9,8 +9,8 @@
                 "z": 0.0
             },
             "translation": {
-                "x": 0.0,
-                "y": 0.0,
+                "x": -8.0,
+                "y": -7.0,
                 "z": 0.0
             },
             "scale": {
@@ -20,7 +20,7 @@
             }
         }
     },
-    "priority": 2,
+    "priority": 0,
     "repairPriority": 1,
     "materialProperty": [
         "default",
@@ -28,20 +28,42 @@
         "tool",
         "head"
     ],
-    "abilities": [
-        "shovel_ability"
-    ],
     "allowedInSlots": [
         "tool_head"
     ],
     "enchantments": {
         "allowed": [
             "miapi:tool",
-            "miapi:shovel"
+            "miapi:pickaxe"
         ]
     },
+    "slots": {
+        "0": {
+            "allowed": [
+                "tool_head_back"
+            ],
+            "translationKey": "miapi.slot.tool_back.name",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        }
+    },
     "mining_level": {
-        "shovel": "[material.mining_level]"
+        "pickaxe": "[material.mining_level]-1"
     },
     "attributes": [
         {
@@ -57,13 +79,13 @@
             "slot": "mainhand"
         },
         {
-            "attribute": "miapi:generic.mining_speed.shovel",
+            "attribute": "miapi:generic.mining_speed.pickaxe",
             "value": "[material.mining_speed]",
             "operation": "+",
             "slot": "mainhand"
         }
     ],
-    "durability": "[material.durability]",
+    "durability": "[material.durability]* 0.5",
     "allowedMaterial": {
         "allowedMaterials": [
             "wood",
@@ -74,8 +96,8 @@
             "rod",
             "crystal"
         ],
-        "cost": 1
+        "cost": 2
     },
-    "displayName": "miapi.module.shovel.name",
-    "itemId": "miapi:modular_shovel"
+    "displayName": "miapi.module.pickaxe_front.name",
+    "itemId": "miapi:modular_pickaxe"
 }

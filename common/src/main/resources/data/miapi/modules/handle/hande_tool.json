@@ -37,6 +37,8 @@
     "slots": {
         "0": {
             "allowed": [
+                "sword_guard",
+                "sword_blade_small",
                 "tool_head"
             ],
             "translationKey": "miapi.slot.tool_head.name",
@@ -47,8 +49,8 @@
                     "z": 0.0
                 },
                 "translation": {
-                    "x": 0.0,
-                    "y": 0.0,
+                    "x": 8.0,
+                    "y": 7.0,
                     "z": 0.0
                 },
                 "scale": {
@@ -191,6 +193,18 @@
         "cost": 1
     },
     "attributes": [
+        {
+            "attribute": "miapi:generic.reach",
+            "value": "0.5",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.attack_range",
+            "value": "0.5",
+            "operation": "+",
+            "slot": "mainhand"
+        },
         {
             "attribute": "generic.attack_damage",
             "value": "0.0",

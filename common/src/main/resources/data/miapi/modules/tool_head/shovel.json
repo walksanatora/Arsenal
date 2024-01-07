@@ -1,7 +1,7 @@
 {
-    "name": "hoe_front",
+    "name": "shovel",
     "texture": {
-        "path": "miapi:models/item/tool/head/hoe_front/[material.texture].json",
+        "path": "miapi:models/item/tool/head/shovel/[material.texture].json",
         "transform": {
             "rotation": {
                 "x": 0.0,
@@ -9,8 +9,8 @@
                 "z": 0.0
             },
             "translation": {
-                "x": 0.0,
-                "y": 0.0,
+                "x": -8.0,
+                "y": -7.0,
                 "z": 0.0
             },
             "scale": {
@@ -20,7 +20,7 @@
             }
         }
     },
-    "priority": 3,
+    "priority": 2,
     "repairPriority": 1,
     "materialProperty": [
         "default",
@@ -28,45 +28,20 @@
         "tool",
         "head"
     ],
+    "abilities": [
+        "shovel_ability"
+    ],
     "allowedInSlots": [
         "tool_head"
-    ],
-    "abilities": [
-        "hoe_ability"
     ],
     "enchantments": {
         "allowed": [
             "miapi:tool",
-            "miapi:hoe"
+            "miapi:shovel"
         ]
     },
-    "slots": {
-        "0": {
-            "allowed": [
-                "tool_head_back"
-            ],
-            "translationKey": "miapi.slot.tool_back.name",
-            "transform": {
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
-                },
-                "scale": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
-                }
-            }
-        }
-    },
     "mining_level": {
-        "hoe": "[material.mining_level]"
+        "shovel": "[material.mining_level]"
     },
     "attributes": [
         {
@@ -82,13 +57,13 @@
             "slot": "mainhand"
         },
         {
-            "attribute": "miapi:generic.mining_speed.hoe",
-            "value": "[material.mining_speed] * 0.75",
+            "attribute": "miapi:generic.mining_speed.shovel",
+            "value": "[material.mining_speed]",
             "operation": "+",
             "slot": "mainhand"
         }
     ],
-    "durability": "[material.durability]* 0.5",
+    "durability": "[material.durability]",
     "allowedMaterial": {
         "allowedMaterials": [
             "wood",
@@ -101,6 +76,6 @@
         ],
         "cost": 1
     },
-    "displayName": "miapi.module.hoe_front.name",
-    "itemId": "miapi:modular_hoe"
+    "displayName": "miapi.module.shovel.name",
+    "itemId": "miapi:modular_shovel"
 }
