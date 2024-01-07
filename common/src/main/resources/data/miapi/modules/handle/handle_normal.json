@@ -247,6 +247,30 @@
             "operation": "*",
             "slot": "mainhand",
             "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+        },
+        {
+            "attribute": "miapi:generic.mining_speed.shovel",
+            "value": "- 0.15",
+            "operation": "*",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.mining_speed.hoe",
+            "value": "- 0.15",
+            "operation": "*",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.mining_speed.pickaxe",
+            "value": "- 0.15",
+            "operation": "*",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.mining_speed.axe",
+            "value": "- 0.15",
+            "operation": "*",
+            "slot": "mainhand"
         }
     ],
     "durability": "[material.durability]* 0.25",
