@@ -56,7 +56,7 @@ dependencies {
     //modApi "maven.modrinth:modular-item-api:${miapi_version}-fabric"
     //modApi(include("com.RedPxnda.Nucleus:nucleus-fabric:${rootProject.minecraft_version}-${rootProject.nucleus_version}")) { transitive = false }
 
-    //modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-fabric:${rootProject.miapi_version}")
+    modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-fabric:${rootProject.miapi_version}")
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
