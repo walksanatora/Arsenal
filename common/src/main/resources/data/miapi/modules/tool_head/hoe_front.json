@@ -23,7 +23,7 @@
             }
         },
         {
-            "path": "miapi:models/item/sword/handle/extentions/type_2/[material.texture].json",
+            "path": "miapi:models/item/sword/handle/extentions/type_3/[material.texture].json",
             "color_provider": "parent",
             "transform": {
                 "rotation": {

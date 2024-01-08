@@ -6,3 +6,4 @@
 - added Masamune Skin (texture by @RPGLordLight )
 - added Keysword Skin (texture by @RPGLordLight )
 - added Sword of Omens Skin (texture by @RPGLordLight )
+- now allowing Tool Heads on all Handles and Guards on Toolhandles
