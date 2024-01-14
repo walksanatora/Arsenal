@@ -22,7 +22,7 @@
         "default",
         "handheld"
     ],
-    "priority": 2,
+    "priority": 20,
     "repairPriority": 0,
     "durability": "[material.durability]* 0.05",
     "allowedMaterial": {
@@ -36,9 +36,5 @@
             "glass"
         ],
         "cost": 1
-    },
-    "blocking": 20,
-    "abilities": [
-        "block"
-    ]
+    }
 }

@@ -31,7 +31,7 @@
             "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
         }
     ],
-    "priority": 1,
+    "priority": -2,
     "repairPriority": 0,
     "allowedMaterial": {
         "allowedMaterials": [

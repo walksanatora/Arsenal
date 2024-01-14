@@ -86,7 +86,7 @@
         "blade",
         "head"
     ],
-    "durability": "[material.durability]* 0.25",
+    "durability": "[material.durability]* 0.15",
     "better_combat_config": {
         "parent": "bettercombat:dagger"
     },

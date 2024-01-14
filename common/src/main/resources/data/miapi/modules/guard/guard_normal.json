@@ -22,9 +22,9 @@
         "default",
         "handheld"
     ],
-    "priority": 0,
+    "priority": -3,
     "repairPriority": 0,
-    "durability": "[material.durability]* 0.25",
+    "durability": "[material.durability]* 0.5",
     "allowedMaterial": {
         "allowedMaterials": [
             "wood",

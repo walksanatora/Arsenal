@@ -53,6 +53,12 @@
         ],
         "cost": 1
     },
+    "abilities": [
+        "hoe_ability"
+    ],
+    "fake_enchant": {
+        "minecraft:sweeping": 4
+    },
     "attributes": [
         {
             "attribute": "generic.attack_speed",

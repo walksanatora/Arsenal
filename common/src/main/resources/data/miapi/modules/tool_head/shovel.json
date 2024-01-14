@@ -114,5 +114,8 @@
         "cost": 1
     },
     "displayName": "miapi.module.shovel.name",
+    "tag": [
+        "tool_head"
+    ],
     "itemId": "miapi:modular_shovel"
 }

@@ -169,5 +169,8 @@
     ],
     "durability": "[material.durability]* 0.5",
     "displayName": "miapi.module.axe_front.name",
+    "tag": [
+        "tool_head"
+    ],
     "itemId": "miapi:modular_axe"
 }

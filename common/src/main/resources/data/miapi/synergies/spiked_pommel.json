@@ -10,7 +10,7 @@
                 }
             }
         },
-        "replace": {
+        "merge": {
             "attributes": [
                 {
                     "attribute": "generic.attack_damage",

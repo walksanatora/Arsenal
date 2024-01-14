@@ -7,7 +7,7 @@
                 "tag": "blade_large"
             }
         },
-        "replace": {
+        "merge": {
             "attributes": [
                 {
                     "attribute": "generic.attack_speed",

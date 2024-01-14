@@ -56,6 +56,9 @@
         ],
         "cost": 2
     },
+    "mining_level": {
+        "hoe": "max(1,[material.mining_level]-1)"
+    },
     "attributes": [
         {
             "attribute": "miapi:generic.attack_range",
@@ -77,12 +80,21 @@
             "operation": "+",
             "slot": "mainhand",
             "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
+        },
+        {
+            "attribute": "miapi:generic.mining_speed.hoe",
+            "value": "[material.mining_speed] * 0.5",
+            "operation": "+",
+            "slot": "mainhand"
         }
     ],
-    "durability": "[material.durability]* 0.35",
+    "durability": "[material.durability]* 0.15",
     "better_combat_config": {
         "parent": "bettercombat:sickle"
     },
+    "abilities": [
+        "hoe_ability"
+    ],
     "displayName": "miapi.module.blade_sickle.name",
     "itemId": "miapi:modular_sickle"
 }

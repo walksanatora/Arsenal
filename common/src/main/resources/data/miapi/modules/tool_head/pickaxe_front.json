@@ -150,5 +150,8 @@
         "cost": 2
     },
     "displayName": "miapi.module.pickaxe_front.name",
+    "tag": [
+        "tool_head"
+    ],
     "itemId": "miapi:modular_pickaxe"
 }

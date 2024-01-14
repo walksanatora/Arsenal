@@ -81,7 +81,7 @@
         }
     ],
     "blocking": "[material.flexibility]* 3 + 15",
-    "durability": "[material.durability]* 0.6",
+    "durability": "[material.durability]* 0.25",
     "guiOffset": {
         "sizeX": 6,
         "sizeY": 6

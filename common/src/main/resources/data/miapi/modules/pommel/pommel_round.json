@@ -13,6 +13,15 @@
         "default",
         "handheld"
     ],
+    "attributes": [
+        {
+            "attribute": "generic.attack_speed",
+            "value": "0.10",
+            "operation": "+",
+            "slot": "mainhand",
+            "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
+        }
+    ],
     "priority": 0,
     "repairPriority": 0,
     "durability": "[material.durability]* 0.25",

@@ -63,6 +63,9 @@
         }
     ],
     "durability": "[material.durability]* 0.5",
+    "tag": [
+        "tool_head"
+    ],
     "allowedMaterial": {
         "allowedMaterials": [
             "wood",

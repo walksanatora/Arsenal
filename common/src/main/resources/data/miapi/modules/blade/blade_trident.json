@@ -86,7 +86,7 @@
             "slot": "mainhand"
         }
     ],
-    "durability": "[material.durability]* 0.75",
+    "durability": "[material.durability]* 0.5",
     "abilities": [
         "throw",
         "riptide"
