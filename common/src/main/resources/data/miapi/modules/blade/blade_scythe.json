@@ -57,7 +57,7 @@
         "hoe_ability"
     ],
     "fake_enchant": {
-        "minecraft:sweeping": 4
+        "minecraft:sweeping": 3
     },
     "attributes": [
         {
