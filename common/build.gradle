@@ -7,7 +7,6 @@ dependencies {
 
     modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-common:${rootProject.miapi_version}")
 
-    modApi("com.RedPxnda.Nucleus:nucleus-common:${rootProject.minecraft_version}-${rootProject.nucleus_version}")
     implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
 }
 
