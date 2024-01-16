@@ -21,6 +21,10 @@
                     "z": 1
                 }
             }
+        },
+        "guiOffset": {
+            "sizeX": 13,
+            "sizeY": 13
         }
     },
     "condition": {

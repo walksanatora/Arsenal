@@ -43,7 +43,11 @@
                     }
                 }
             }
-        ]
+        ],
+        "guiOffset": {
+            "sizeX": 7,
+            "sizeY": 7
+        }
     },
     "condition": {
         "type": "miapi_perm",
