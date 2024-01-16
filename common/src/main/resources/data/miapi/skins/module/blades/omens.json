@@ -50,8 +50,8 @@
         }
     },
     "condition": {
-        "type": "miapi_perm",
-        "perms": ["user","supporter","gladius"]
+        "type": "advancement",
+        "advancement": "minecraft:story/enter_the_nether"
     },
     "texture": {
         "color": "FFFFFF",
