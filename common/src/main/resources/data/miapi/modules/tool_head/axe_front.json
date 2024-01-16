@@ -69,6 +69,7 @@
     "materialProperty": [
         "default",
         "handheld",
+        "axe",
         "tool",
         "head"
     ],

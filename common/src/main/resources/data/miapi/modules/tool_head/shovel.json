@@ -48,6 +48,7 @@
     "materialProperty": [
         "default",
         "handheld",
+        "shovel",
         "tool",
         "head"
     ],

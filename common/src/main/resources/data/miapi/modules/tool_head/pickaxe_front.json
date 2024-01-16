@@ -69,6 +69,7 @@
     "materialProperty": [
         "default",
         "handheld",
+        "pickaxe",
         "tool",
         "head"
     ],

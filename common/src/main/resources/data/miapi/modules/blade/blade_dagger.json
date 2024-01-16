@@ -84,6 +84,7 @@
     "materialProperty": [
         "default",
         "blade",
+        "handheld",
         "head"
     ],
     "durability": "[material.durability]* 0.15",
