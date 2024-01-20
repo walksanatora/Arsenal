@@ -143,6 +143,11 @@
     "miapi.module.handle_twin.description": "Am impractical Twin Handle for Double the Blades.\n Looks cool though.",
     "miapi.module.handle_twin.short_description": "A Twin Handle",
 
+    "miapi.module.axe_throwing": "Throwing Axe Head",
+    "miapi.module.axe_throwing.name": "Throwing [translation.[material.translation]]Axe",
+    "miapi.module.axe_throwing.description": "An axe primarily built to be thrown, can also be used as a Melee Weapon.",
+    "miapi.module.axe_throwing.short_description": "An axe head",
+
     "miapi.module.axe_front": "Axe Head",
     "miapi.module.axe_front.name": "[translation.[material.translation]]Axe",
     "miapi.module.axe_front.description": "A front part of an axe used for cutting and stripping wood. Can also be used for combat.",
