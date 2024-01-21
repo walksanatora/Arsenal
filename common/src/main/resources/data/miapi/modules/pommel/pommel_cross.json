@@ -46,14 +46,14 @@
     "attributes": [
         {
             "attribute": "generic.attack_speed",
-            "value": "-0.05",
+            "value": "-0.07 + [material.density]*0.01",
             "operation": "+",
             "slot": "mainhand",
             "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "0.03",
+            "value": "0.1",
             "operation": "*",
             "slot": "mainhand",
             "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
