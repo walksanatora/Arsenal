@@ -78,6 +78,11 @@
     "miapi.module.blade_scythe.description": "A long Scythe head. Usually used to cut grass or People down",
     "miapi.module.blade_scythe.short_description": "A Scythe Blade, a mixture between Tool and Weapon",
 
+    "miapi.module.guard_blocking": "Large Guard",
+    "miapi.module.guard_blocking.name": "[translation.[material.translation]]Large Guard",
+    "miapi.module.guard_blocking.description": "A guard specifically designed for blocking.",
+    "miapi.module.guard_blocking.short_description": "A Large Winged Guard.",
+
     "miapi.module.guard_katana": "Katana Guard",
     "miapi.module.guard_katana.name": "[translation.[material.translation]]Katana Guard",
     "miapi.module.guard_katana.description": "A guard specifically designed for use with a katana sword.",

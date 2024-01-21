@@ -89,5 +89,13 @@
     "guiOffset": {
         "sizeX": 1,
         "sizeY": 1
+    },
+    "crafting_condition": {
+        "visible": {
+            "type": "not",
+            "condition": {
+                "type": "true"
+            }
+        }
     }
 }

@@ -22,6 +22,14 @@
         "default",
         "handheld"
     ],
+    "crafting_condition": {
+        "visible": {
+            "type": "not",
+            "condition": {
+                "type": "true"
+            }
+        }
+    },
     "priority": 20,
     "repairPriority": 0,
     "durability": "[material.durability]* 0.05",

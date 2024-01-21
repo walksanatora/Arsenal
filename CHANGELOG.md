@@ -1,11 +1,2 @@
-## v1.5 (1.20.1)
-- added more Craftingproperty keys for axes, pickaxes, shovels and hoes
-- fixed gui scaling for key and omen skin
-- added throwing axe
-- rebalanced Pommels and Guards
-  - increased blocking on Large Guard
-  - made Katana Guard a Slim Guard skin
-  - removed blocking from Slim Guard
-- added Mining to Sickle
-- added Hoe-right click to Sickle and Scythe
-- added Native sweeping edge to Scythe
+## v1.6 (1.20.1)
+- fixed guard changes, accidentally forgot to include the last update

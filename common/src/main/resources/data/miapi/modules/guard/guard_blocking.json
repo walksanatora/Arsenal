@@ -56,7 +56,7 @@
     ],
     "priority": -1,
     "repairPriority": 0,
-    "blocking": 60,
+    "blocking": "58 + ceil([material.flexibility])",
     "abilities": [
         "block"
     ],
