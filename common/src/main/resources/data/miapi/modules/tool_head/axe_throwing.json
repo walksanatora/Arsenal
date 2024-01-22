@@ -145,7 +145,7 @@
         },
         {
             "attribute": "miapi:generic.projectile_speed",
-            "value": "1.2",
+            "value": "0.8",
             "operation": "+",
             "slot": "mainhand"
         },
@@ -157,6 +157,7 @@
             "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
         }
     ],
+    "air_drag": "0.97",
     "durability": "[material.durability]* 0.5",
     "displayName": "miapi.module.axe_throwing.name",
     "tag": [

@@ -93,19 +93,13 @@
     },
     "crafting_condition": {
         "craftable": {
-            "type": "miapi_perm",
-            "perms": [
-                "user"
-            ]
+            "type": "true"
         },
         "visible": {
-            "type": "miapi_perm",
-            "perms": [
-                "user"
-            ]
+            "type": "true"
         },
         "on_craft": {
-            "type": "not"
+            "type": "true"
         }
     },
     "displayName": "miapi.module.blade_dagger.name",
