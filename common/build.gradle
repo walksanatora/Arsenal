@@ -5,8 +5,8 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury:${rootProject.architectury_version}"
 
-    //modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-common:${rootProject.miapi_version}")
-    modApi ("maven.modrinth:modular-item-api:1.1.8-1.20.1")
+    modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-common:${rootProject.miapi_version}")
+    //modApi ("maven.modrinth:modular-item-api:1.1.8-1.20.1")
 
     //implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
 }
@@ -19,6 +19,11 @@ repositories {
     maven { url 'https://jitpack.io' }
     maven { url 'https://maven.terraformersmc.com/' }
     maven { url 'https://www.cursemaven.com' }
+    maven {
+        //this is our fake maven, using this is not recommended
+        url 'http://trulymodular.duckdns.org/maven'
+        allowInsecureProtocol = true
+    }
     maven {
         name = 'Modrinth'
         url = 'https://api.modrinth.com/maven'
