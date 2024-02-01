@@ -1,7 +1,7 @@
 {
     "axe_back": {
         "condition": {
-            "type": "otherModule",
+            "type": "parent",
             "condition": {
                 "type": "module",
                 "module": "axe_front"

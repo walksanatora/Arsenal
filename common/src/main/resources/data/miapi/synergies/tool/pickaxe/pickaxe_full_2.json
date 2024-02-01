@@ -1,7 +1,7 @@
 {
     "pickaxe_front": {
         "condition": {
-            "type": "otherModule",
+            "type": "child",
             "condition": {
                 "type": "module",
                 "module": "pickaxe_back"

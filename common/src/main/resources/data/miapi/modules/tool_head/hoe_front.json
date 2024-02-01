@@ -134,7 +134,7 @@
         },
         {
             "attribute": "generic.attack_speed",
-            "value": "max(1,[material.hardness]*1.0-3.5)",
+            "value": "max(1,min(4,([material.hardness]-2))-2.5)",
             "operation": "+",
             "slot": "mainhand",
             "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
