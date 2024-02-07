@@ -2,13 +2,12 @@
     "mining_shape": [
         {
             "condition": {
-                "type": "shovel",
+                "type": "always",
                 "comment": "type can be mining_speed -> will apply if tool has custom mining speed for this",
                 "comment2": "other types would be pickaxe,axe,hoe,shovel or always to apply to all blocks"
             },
             "modifiers": {
                 "comment": "TODO:this",
-                "require_same": true,
                 "require_connected": true
             },
             "collapseMode": {
@@ -16,13 +15,9 @@
                 "type": "staggered"
             },
             "shape": {
-                "comment": "allow for different types and each type gets pos and face and returns a list of of blocks to mine",
-                "comment2": "should include cube, radius, cubeRadius and maybe other shapes in the future",
-                "comment3": "other types should maybe include vein for now",
-                "type": "cube",
-                "height": 3,
-                "width": 3,
-                "depth": 5
+                "type": "vein",
+                "size": 6,
+                "max": 200
             }
         }
     ]
