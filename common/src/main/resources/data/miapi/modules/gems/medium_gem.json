@@ -1,12 +1,12 @@
 {
-    "name": "small_gem_generic",
+    "name": "medium_gem_generic",
     "texture": {
-        "path": "miapi:models/item/arsenal/gem/small/[material.texture].json",
+        "path": "miapi:models/item/arsenal/gems/medium/[material.texture].json",
         "transform": {
             "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
         }
     },
-    "allowedInSlots": ["small_gem"],
+    "allowedInSlots": ["gem_medium"],
     "materialProperty": [
         "default",
         "gem_handheld",
@@ -17,9 +17,9 @@
     },
     "tag": [
         "gem",
-        "gem_small",
+        "gem_medium",
         "gem_generic",
-        "gem_small_generic"
+        "gem_medium_generic"
     ],
     "attributes": [
         {
