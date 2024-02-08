@@ -65,7 +65,7 @@
         }
     ],
     "priority": 0,
-    "repairPriority": 1,
+    "repairPriority": -1,
     "materialProperty": [
         "default",
         "handheld",

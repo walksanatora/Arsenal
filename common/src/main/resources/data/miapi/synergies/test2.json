@@ -2,22 +2,20 @@
     "mining_shape": [
         {
             "condition": {
-                "type": "always",
-                "comment": "type can be mining_speed -> will apply if tool has custom mining speed for this",
-                "comment2": "other types would be pickaxe,axe,hoe,shovel or always to apply to all blocks"
+                "type": "pickaxe"
             },
             "modifiers": {
-                "comment": "TODO:this",
-                "require_connected": true
+                "require_same": true
             },
             "collapseMode": {
-                "comment": "if only the exact same block is allowed to be mined, currently only instant is an option, but a 1 tick/block delay is beeing considered",
-                "type": "staggered"
+                "type": "staggered",
+                "speed": 4
             },
             "shape": {
-                "type": "vein",
-                "size": 6,
-                "max": 200
+                "type": "cube",
+                "width": 3,
+                "height": 3,
+                "depth": 1
             }
         }
     ]
