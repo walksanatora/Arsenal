@@ -22,6 +22,16 @@ repositories {
             includeGroup 'maven.modrinth'
         }
     }
+    maven {
+        url "https://maven.jamieswhiteshirt.com/libs-release"
+        content {
+            includeGroup "com.jamieswhiteshirt"
+        }
+    }
+    maven {
+        url 'http://trulymodular.duckdns.org/maven'
+        allowInsecureProtocol = true
+    }
 }
 
 configurations {
@@ -37,13 +47,16 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
 
-    modApi "com.redpxnda.nucleus:core-forge:${rootProject.minecraft_version}+${rootProject.nucleus_core_version}"
-    modApi "com.redpxnda.nucleus:codec-forge:${rootProject.minecraft_version}+${rootProject.nucleus_codec_version}"
-    modApi "com.redpxnda.nucleus:pose-forge:${rootProject.minecraft_version}+${rootProject.nucleus_pose_version}"
-    modApi "com.redpxnda.nucleus:facet-forge:${rootProject.minecraft_version}+${rootProject.nucleus_facet_version}"
+    //modApi "com.redpxnda.nucleus:core-forge:${rootProject.minecraft_version}+${rootProject.nucleus_core_version}"
+    //modApi "com.redpxnda.nucleus:codec-forge:${rootProject.minecraft_version}+${rootProject.nucleus_codec_version}"
+    //modApi "com.redpxnda.nucleus:pose-forge:${rootProject.minecraft_version}+${rootProject.nucleus_pose_version}"
+    //modApi "com.redpxnda.nucleus:facet-forge:${rootProject.minecraft_version}+${rootProject.nucleus_facet_version}"
 
-    implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
-    modApi ("maven.modrinth:modular-item-api:${rootProject.miapi_version}-forge")
+    //modApi("top.theillusivec4.caelus:caelus-forge:${rootProject.forge_caelus_version}")
+    //implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
+    //modApi ("maven.modrinth:modular-item-api:${rootProject.miapi_version}-forge")
+
+    modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-forge:${rootProject.miapi_version}")
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
