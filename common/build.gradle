@@ -5,10 +5,8 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury:${rootProject.architectury_version}"
 
-    modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-common:${rootProject.miapi_version}")
-    //modApi ("maven.modrinth:modular-item-api:1.1.8-1.20.1")
-
-    //implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
+    modApi ("maven.modrinth:modular-item-api:${rootProject.miapi_version}-fabric")
+    implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
 }
 // https://modrinth.com/mod/modular-item-api/version/1.1.8-1.20.1
 

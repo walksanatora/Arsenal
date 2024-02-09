@@ -1,0 +1,28 @@
+{
+    "type": "tag",
+    "load_condition": {
+        "type": "mod_loaded",
+        "mod": "epicfight"
+    },
+    "polearm_spear": {
+        "condition": {
+            "type": "otherModule",
+            "condition": {
+                "type": "tag",
+                "tag": "polearm_handle"
+            }
+        },
+        "replace": {
+            "epic_fight": {
+                "type": "epicfight:spear",
+                "attributes": {
+                    "common": {
+                        "armor_negation": 0.5,
+                        "impact": 1.1,
+                        "max_strikes": 2
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "tag",
+    "load_condition": {
+        "type": "mod_loaded",
+        "mod": "epicfight"
+    },
+    "polearm_glaive": {
+        "condition": {
+            "type": "otherModule",
+            "condition": {
+                "type": "tag",
+                "tag": "polearm_handle"
+            }
+        },
+        "replace": {
+            "epic_fight": {
+                "type": "epicfight:trident",
+                "attributes": {
+                    "common": {
+                        "armor_negation": 0.0,
+                        "impact": 1.1,
+                        "max_strikes": 4
+                    }
+                }
+            }
+        }
+    }
+}
