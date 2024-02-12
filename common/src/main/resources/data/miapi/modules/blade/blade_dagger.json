@@ -63,8 +63,7 @@
             "value": "2",
             "operation": "*",
             "slot": "mainhand",
-            "seperateOnItem": true,
-            "uuid": "FA233E1C-4186-4865-B01B-BCCE9785ACA3"
+            "target_operation": "*"
         },
         {
             "attribute": "generic.attack_speed",

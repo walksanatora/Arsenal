@@ -1,19 +1,35 @@
 {
-    "name": "large_gem_generic",
+    "name": "arsenal_large_gem_generic",
     "texture": {
         "path": "miapi:models/item/arsenal/gems/large/[material.texture].json",
         "transform": {
-            "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
         }
     },
-    "allowedInSlots": ["large_gem"],
+    "allowedInSlots": [
+        "large_melee_gem"
+    ],
     "materialProperty": [
         "default",
-        "gem_handheld",
-        "gem_generic"
+        "gem_melee_handheld",
+        "gem_melee_generic"
     ],
     "module_stats": {
-        "gem_size": 3
+        "gem_power": 4
     },
     "tag": [
         "gem",
@@ -25,6 +41,12 @@
         {
             "attribute": "generic.luck",
             "value": "1",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.crit_damage",
+            "value": "[material.density]/3",
             "operation": "+",
             "slot": "mainhand"
         }

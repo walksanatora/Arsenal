@@ -1,25 +1,25 @@
 {
-    "name": "small_gem_generic",
+    "name": "arsenal_small_gem_generic",
     "texture": {
         "path": "miapi:models/item/arsenal/gems/small/[material.texture].json",
         "transform": {
             "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
         }
     },
-    "allowedInSlots": ["small_gem"],
+    "allowedInSlots": ["small_melee_gem"],
     "materialProperty": [
         "default",
-        "gem_handheld",
-        "gem_generic"
+        "gem_melee_handheld",
+        "gem_melee_generic"
     ],
     "module_stats": {
-        "gem_size": 1
+        "gem_power": 1
     },
     "tag": [
-        "gem",
-        "gem_small",
-        "gem_generic",
-        "gem_small_generic"
+        "gem_melee",
+        "gem_melee_small",
+        "gem_melee_generic",
+        "gem_melee_small_generic"
     ],
     "attributes": [
         {
