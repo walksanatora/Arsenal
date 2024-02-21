@@ -21,21 +21,6 @@
         "gem_melee_generic",
         "gem_melee_medium_generic"
     ],
-    "attributes": [
-        {
-            "attribute": "generic.luck",
-            "value": "[module.gem_power] * (ceil([material.density]/5) + ceil([material.flexibility]/3))",
-            "operation": "+",
-            "slot": "mainhand"
-        },
-        {
-            "attribute": "miapi:generic.crit_damage",
-            "value": "( 1 + [material.enchantablity] )* [module.gem_power] ",
-            "operation": "+",
-            "slot": "mainhand",
-            "target_operation": "+"
-        }
-    ],
     "priority": 0,
     "repairPriority": 0,
     "allowedMaterial": {
