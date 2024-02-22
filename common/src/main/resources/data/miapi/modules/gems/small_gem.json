@@ -33,7 +33,7 @@
     "repairPriority": 0,
     "allowedMaterial": {
         "allowedMaterials": [
-            "gem"
+            "gem_melee"
         ],
         "cost": 1
     }
