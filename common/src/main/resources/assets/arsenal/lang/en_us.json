@@ -85,7 +85,7 @@
     "miapi.module.guard_slim.name": "[translation.[material.translation]]Slim Guard",
     "miapi.module.guard_slim.description": "A slender guard that reduces weight and allows for quicker strikes.",
 
-    "miapi.module.guard_socket": "Socket",
+    "miapi.module.guard_socket": "Socket Guard",
     "miapi.module.guard_socket.name": "[translation.[material.translation]]Socket",
     "miapi.module.guard_socket.description": "A Guard that adds a Position to socket Magical Gemstones or Artifacts.",
 
