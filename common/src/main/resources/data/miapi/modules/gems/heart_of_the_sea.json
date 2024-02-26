@@ -1,0 +1,41 @@
+{
+    "name": "arsenal_heart_of_the_sea_medium_gem_generic",
+    "texture": {
+        "path": "miapi:models/item/arsenal/gems/medium/[material.texture].json",
+        "transform": {
+            "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+        }
+    },
+    "allowedInSlots": ["gem_melee_medium"],
+    "materialProperty": [
+        "default",
+        "gem_melee_handheld",
+        "gem_melee_generic"
+    ],
+    "module_stats": {
+        "gem_power": 2
+    },
+    "tag": [
+        "gem_melee",
+        "gem_melee_medium",
+        "gem_melee_generic",
+        "gem_melee_medium_generic"
+    ],
+    "damage_aquatic": "3+[module.gem_power]/2",
+    "attributes": [
+        {
+            "attribute": "miapi:generic.swim_speed",
+            "value": "0.05",
+            "operation": "*",
+            "slot": "mainhand"
+        }
+    ],
+    "priority": 1,
+    "repairPriority": 0,
+    "allowedMaterial": {
+        "allowedMaterials": [
+            "heart_of_the_sea"
+        ],
+        "cost": 1
+    }
+}

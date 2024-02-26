@@ -21,6 +21,7 @@
     "miapi.slot.sword_blade.name": "Empty Blade Slot",
     "miapi.slot.pommel.name" : "Empty Pommel Slot",
     "miapi.slot.guard.name" : "Empty Guard Slot",
+    "miapi.slot.gem.name" : "Empty Socket",
 
 
     "miapi.ability.heavy_attack.title": "Heavy Attack",
@@ -190,5 +191,12 @@
 
     "miapi.module.arsenal_small_gem_generic": "Small Gemstone",
     "miapi.module.arsenal_small_gem_generic.name": "[translation.[material.translation]]Small Gemstone",
-    "miapi.module.arsenal_small_gem_generic.description": "A weak Magical Gemstone."
+    "miapi.module.arsenal_small_gem_generic.description": "A weak Magical Gemstone.",
+
+    "miapi.module.arsenal_end_crystal_medium_gem_generic": "End Crystal",
+    "miapi.module.arsenal_end_crystal_medium_gem_generic.description": "Highly unstable Crystal harnessed to explode killed Enemies",
+    "miapi.module.arsenal_heart_of_the_sea_medium_gem_generic": "Heart of the Sea",
+    "miapi.module.arsenal_heart_of_the_sea_medium_gem_generic.description": "Harnessing the Power of the Heart of the sea",
+    "miapi.module.arsenal_nether_star_medium_gem_generic": "Wither Star",
+    "miapi.module.arsenal_nether_star_medium_gem_generic.description": "With the power of a Slain Wither you can gain Strength when slaughtering"
 }
