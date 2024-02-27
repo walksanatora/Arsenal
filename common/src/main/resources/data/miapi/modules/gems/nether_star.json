@@ -40,13 +40,14 @@
     ],
     "gui_stat": {
         "strength_on_hit": {
-            "value":"[module.gem_power]/2",
+            "value":"[module.gem_power]/2+1",
             "min": 0,
             "max": 1,
             "header": "Strengthening",
             "description": "Applies Strength effect when hitting a Entity"
         }
     },
+    "rarity": "rare",
     "priority": 2,
     "repairPriority": 0,
     "allowedMaterial": {

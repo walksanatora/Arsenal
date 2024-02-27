@@ -1,0 +1,24 @@
+{
+    "key": "redstone",
+    "properties": {
+        "gem_melee_generic": {
+            "on_attack_potion": [
+                {
+                    "potion": "minecraft:speed",
+                    "amplifier": "0 + floor([module.gem_power]/2)",
+                    "duration": "([module.gem_power] + 2) * 20",
+                    "target_self": true
+                }
+            ],
+            "gui_stat": {
+                "speed_on_hit": {
+                    "value": "[module.gem_power]+1",
+                    "min": 0,
+                    "max": 3,
+                    "header": "Quickening!",
+                    "description": "Applies Speed effect on wielder when hitting a Entity"
+                }
+            }
+        }
+    }
+}

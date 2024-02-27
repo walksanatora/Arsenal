@@ -1,2 +1,12 @@
-## v1.6 (1.20.1)
-- fixed guard changes, accidentally forgot to include the last update
+## v1.7 (1.20.1)
+- added Sockets
+  - added generic Gem Socket with 
+    - Redstone applies speed 2 on hit
+    - Diamond applies resistance on hit and increases Durability
+    - Emerald gives fortune and luck
+    - Lapis gives Smiting Damage
+    - Amethyst applies poison and Glowing on hit
+  - added End Crystal Socket exploding on kill
+  - added Heart of the Sea Socket increases Swim speed and damage against Aquatic Mobs
+  - added Nether Star Socket to add Strength 2 on hit
+- nerfed combos with Axe on the back

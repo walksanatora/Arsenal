@@ -1,11 +1,26 @@
 {
-    "name": "arsenal_heart_of_the_sea_medium_gem_generic",
-    "texture": {
-        "path": "miapi:models/item/arsenal/gems/medium/[material.texture].json",
-        "transform": {
-            "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+    "name": "arsenal_conduit_medium_gem_generic",
+    "conduit_model": [
+        {
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 0.375,
+                    "y": 0.375,
+                    "z": 0.6
+                },
+                "scale": {
+                    "x": 0.25,
+                    "y": 0.25,
+                    "z": 0.25
+                }
+            }
         }
-    },
+    ],
     "allowedInSlots": ["gem_melee_medium"],
     "materialProperty": [
         "default",
@@ -28,15 +43,6 @@
             "value": "0.10",
             "operation": "*",
             "slot": "mainhand"
-        }
-    ],
-    "on_attack_potion": [
-        {
-            "potion": "minecraft:conduit_power",
-            "amplifier": "0",
-            "duration": "20 * 10",
-            "showIcon": true,
-            "target_self": true
         }
     ],
     "rarity": "uncommon",

@@ -23,6 +23,7 @@
     ],
     "priority": 0,
     "repairPriority": 0,
+    "rarity": "uncommon",
     "allowedMaterial": {
         "allowedMaterials": [
             "gem_melee"

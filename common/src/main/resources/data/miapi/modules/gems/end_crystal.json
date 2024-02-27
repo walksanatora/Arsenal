@@ -27,6 +27,7 @@
             "type": true
         }
     },
+    "rarity": "rare",
     "entity_model": [
         {
             "id": "minecraft:end_crystal",

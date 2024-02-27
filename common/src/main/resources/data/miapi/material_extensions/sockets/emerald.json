@@ -1,0 +1,16 @@
+{
+    "key": "emerald",
+    "properties": {
+        "gem_melee_generic": {
+            "fortune": "1",
+            "attributes": [
+                {
+                    "attribute": "miapi:generic.crit_chance",
+                    "value": "[module.gem_power]*5+10",
+                    "operation": "*",
+                    "slot": "mainhand"
+                }
+            ]
+        }
+    }
+}
