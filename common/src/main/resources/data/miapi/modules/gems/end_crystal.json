@@ -1,6 +1,8 @@
 {
     "name": "arsenal_end_crystal_medium_gem_generic",
-    "allowedInSlots": ["gem_melee_medium"],
+    "allowedInSlots": [
+        "gem_melee_medium"
+    ],
     "materialProperty": [
         "default",
         "gem_melee_handheld",
@@ -15,6 +17,15 @@
         "gem_melee_generic",
         "gem_melee_medium_generic"
     ],
+    "allowChangeParent": {
+        "type": "not",
+        "condition": {
+            "type": "true"
+        },
+        "reason": {
+            "translate": "miapi.crafting_condition.cant_change_parent"
+        }
+    },
     "priority": 3,
     "repairPriority": 0,
     "crafting_condition": {
@@ -54,7 +65,7 @@
             }
         }
     ],
-    "on_kill_explosion":{
+    "on_kill_explosion": {
         "destroyBlocks": false,
         "strength": 3.0,
         "entityMaxDamage": 12,
