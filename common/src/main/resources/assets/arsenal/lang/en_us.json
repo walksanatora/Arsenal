@@ -18,6 +18,17 @@
     "miapi.crafting_condition.require_obsidian_socket": "Requires Obsidian Socket",
     "miapi.crafting_condition.require_prismarine_socket": "Requires Prismarine Socket",
 
+    "miapi.material_group.gem_melee": "Gemstones",
+
+    "miapi.arsenal.gemstone_melee.radiant": "Radiant Poisonous",
+    "miapi.arsenal.gemstone_melee.radiant.description": "Applies Poison and Glowing effect when hitting a Entity",
+    "miapi.arsenal.gemstone_melee.armoring": "Armoring",
+    "miapi.arsenal.gemstone_melee.armoring.description": "Applies Resistance effect on wielder when hitting a Entity",
+    "miapi.arsenal.gemstone_melee.lucky": "Lucky!",
+    "miapi.arsenal.gemstone_melee.lucky.description": "Applies Luck effect on wielder when hitting a Entity",
+    "miapi.arsenal.gemstone_melee.quickening": "Quickening!",
+    "miapi.arsenal.gemstone_melee.quickening.description": "Applies Speed effect on wielder when hitting a Entity",
+
     "miapi.create_item.sword": "Sword",
     "miapi.create_item.tool": "Tool",
 
@@ -95,9 +106,18 @@
     "miapi.module.guard_socket.name": "[translation.[material.translation]]Socket",
     "miapi.module.guard_socket.description": "A Guard that adds a Position to socket Magical Gemstones or Artifacts.",
 
+    "miapi.module.guard_dual_socket": "Dual Socket Guard",
+    "miapi.module.guard_dual_socket.name": "[translation.[material.translation]]Dual Socket",
+    "miapi.module.guard_dual_socket.description": "A Guard that adds a Position to socket two small Magical Gemstones or Artifacts.",
+
     "miapi.module.guard_winged": "Winged Guard",
     "miapi.module.guard_winged.name": "[translation.[material.translation]]Winged Guard",
     "miapi.module.guard_winged.description": "A guard with decorative wing-like extensions for aesthetic appeal and improved balance.",
+
+
+    "miapi.module.pommel_socket": "Socket Pommel",
+    "miapi.module.pommel_socket.name": "[translation.[material.translation]]Socket Pommel",
+    "miapi.module.pommel_socket.description": "A pommel featuring a small Slot for a magical Gemstone.",
 
     "miapi.module.pommel_cross": "Cross Pommel",
     "miapi.module.pommel_cross.name": "[translation.[material.translation]]Cross Pommel",

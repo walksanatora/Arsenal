@@ -21,7 +21,7 @@
         }
     },
     "allowedInSlots": [
-        "large_melee_gem"
+        "gem_melee_large"
     ],
     "materialProperty": [
         "default",

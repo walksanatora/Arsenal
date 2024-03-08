@@ -1,12 +1,15 @@
 {
     "key": "redstone",
+    "hidden_groups": [
+        "gem_melee"
+    ],
     "properties": {
         "gem_melee_generic": {
             "on_attack_potion": [
                 {
                     "potion": "minecraft:speed",
                     "amplifier": "0 + floor([module.gem_power]/2)",
-                    "duration": "([module.gem_power] + 2) * 20",
+                    "duration": "([module.gem_power] + 1) * 40",
                     "target_self": true
                 }
             ],
@@ -15,8 +18,12 @@
                     "value": "[module.gem_power]+1",
                     "min": 0,
                     "max": 3,
-                    "header": "Quickening!",
-                    "description": "Applies Speed effect on wielder when hitting a Entity"
+                    "header": {
+                        "translate": "miapi.arsenal.gemstone_melee.quickening"
+                    },
+                    "description": {
+                        "translate": "miapi.arsenal.gemstone_melee.quickening.description"
+                    }
                 }
             }
         }

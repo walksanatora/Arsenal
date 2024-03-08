@@ -1,5 +1,8 @@
 {
     "key": "emerald",
+    "hidden_groups": [
+        "gem_melee"
+    ],
     "properties": {
         "gem_melee_generic": {
             "fortune": "1",

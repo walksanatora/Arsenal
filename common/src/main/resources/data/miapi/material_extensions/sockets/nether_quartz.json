@@ -1,5 +1,8 @@
 {
     "key": "nether_quartz",
+    "hidden_groups": [
+        "gem_melee"
+    ],
     "properties": {
         "gem_melee_generic": {
             "on_attack_potion": [
@@ -15,8 +18,12 @@
                     "value": "[module.gem_power]+1",
                     "min": 0,
                     "max": 3,
-                    "header": "Lucky!",
-                    "description": "Applies Luck effect on wielder when hitting a Entity"
+                    "header": {
+                        "translate": "miapi.arsenal.gemstone_melee.lucky"
+                    },
+                    "description": {
+                        "translate": "miapi.arsenal.gemstone_melee.lucky.description"
+                    }
                 }
             },
             "attributes": [

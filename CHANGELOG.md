@@ -1,6 +1,6 @@
 ## v1.7 (1.20.1)
 - added Sockets
-  - added generic Gem Socket with 
+  - added generic Gem Socketables with 
     - Redstone applies speed 2 on hit
     - Diamond applies resistance on hit and increases Durability
     - Emerald gives fortune and luck
@@ -10,5 +10,8 @@
   - added Heart of the Sea Socket increases Swim speed and damage against Aquatic Mobs
   - added Nether Star Socket to add Strength 2 on hit
   - added Ender pearl Socket to add teleport block Effect called Spatial Interdiction
+- added Medium Gemstone Socket Guard
+- added Dual Small Gemstone Socket Guard
+- added Small Gemstone Socket Pomel
 - nerfed combos with Axe on the back
 - added Bident Skin

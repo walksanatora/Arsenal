@@ -1,28 +1,35 @@
 {
     "key": "amethyst",
+    "hidden_groups": [
+        "gem_melee"
+    ],
     "properties": {
         "gem_melee_generic": {
             "on_attack_potion": [
                 {
                     "potion": "minecraft:poison",
-                    "amplifier": 1,
-                    "duration": "100+[module.gem_power]*20",
+                    "amplifier": "ceil([module.gem_power] / 2) - 1",
+                    "duration": "20+[module.gem_power]*40",
                     "showIcon": true
                 },
                 {
                     "potion": "minecraft:glowing",
                     "amplifier": "0",
-                    "duration": "100+[module.gem_power]*20",
+                    "duration": "20+[module.gem_power]*40",
                     "target_self": false
                 }
             ],
             "gui_stat": {
                 "radiant_poison_on_hit": {
-                    "value": 2,
+                    "value": "[module.gem_power]",
                     "min": 0,
                     "max": 2,
-                    "header": "Radiant Poisonous",
-                    "description": "Applies Poison and Glowing effect when hitting a Entity"
+                    "header": {
+                        "translate": "miapi.arsenal.gemstone_melee.radiant"
+                    },
+                    "description": {
+                        "translate": "miapi.arsenal.gemstone_melee.radiant.description"
+                    }
                 }
             }
         }

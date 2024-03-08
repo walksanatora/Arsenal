@@ -1,5 +1,8 @@
 {
     "key": "lapis_lazuli",
+    "hidden_groups": [
+        "gem_melee"
+    ],
     "properties": {
         "gem_melee_generic": {
             "smite_damage":" 1 + [module.gem_power]"

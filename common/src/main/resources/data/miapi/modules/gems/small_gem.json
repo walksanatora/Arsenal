@@ -6,7 +6,7 @@
             "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
         }
     },
-    "allowedInSlots": ["small_melee_gem"],
+    "allowedInSlots": ["gem_melee_small"],
     "materialProperty": [
         "default",
         "gem_melee_handheld",
@@ -20,14 +20,6 @@
         "gem_melee_small",
         "gem_melee_generic",
         "gem_melee_small_generic"
-    ],
-    "attributes": [
-        {
-            "attribute": "generic.luck",
-            "value": "1",
-            "operation": "+",
-            "slot": "mainhand"
-        }
     ],
     "priority": 0,
     "repairPriority": 0,

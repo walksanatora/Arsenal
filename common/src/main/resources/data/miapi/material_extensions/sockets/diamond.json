@@ -1,5 +1,8 @@
 {
     "key": "diamond",
+    "hidden_groups": [
+        "gem_melee"
+    ],
     "properties": {
         "gem_melee_generic": {
             "durability": [
@@ -16,7 +19,7 @@
                 {
                     "potion": "minecraft:resistance",
                     "amplifier": 0,
-                    "duration": "([module.gem_power]+2)*20",
+                    "duration": "([module.gem_power]+1)*60",
                     "target_self": true
                 }
             ],
@@ -25,8 +28,12 @@
                     "value": 1,
                     "min": 0,
                     "max": 2,
-                    "header": "Armoring",
-                    "description": "Applies Resistance effect on wielder when hitting a Entity"
+                    "header": {
+                        "translate": "miapi.arsenal.gemstone_melee.armoring"
+                    },
+                    "description": {
+                        "translate": "miapi.arsenal.gemstone_melee.armoring.description"
+                    }
                 }
             }
         }
