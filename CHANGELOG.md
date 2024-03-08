@@ -9,4 +9,6 @@
   - added End Crystal Socket exploding on kill
   - added Heart of the Sea Socket increases Swim speed and damage against Aquatic Mobs
   - added Nether Star Socket to add Strength 2 on hit
+  - added Ender pearl Socket to add teleport block Effect called Spatial Interdiction
 - nerfed combos with Axe on the back
+- added Bident Skin
