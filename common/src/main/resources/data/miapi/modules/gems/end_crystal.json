@@ -17,6 +17,20 @@
         "gem_melee_generic",
         "gem_melee_medium_generic"
     ],
+    "priority": 4,
+    "repairPriority": 0,
+    "crafting_condition": {
+        "craftable": {
+            "type": "material",
+            "material": "stone_obsidian",
+            "error": {
+                "translate": "miapi.crafting_condition.require_obsidian_socket"
+            }
+        },
+        "on_craft": {
+            "type": true
+        }
+    },
     "allowChangeParent": {
         "type": "not",
         "condition": {
@@ -24,18 +38,6 @@
         },
         "reason": {
             "translate": "miapi.crafting_condition.cant_change_parent"
-        }
-    },
-    "priority": 3,
-    "repairPriority": 0,
-    "crafting_condition": {
-        "craftable": {
-            "type": "material",
-            "material": "stone_obsidian",
-            "error": "Requires Obsidian Socket"
-        },
-        "on_craft": {
-            "type": true
         }
     },
     "rarity": "rare",

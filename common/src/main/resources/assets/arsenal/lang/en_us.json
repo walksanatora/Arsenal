@@ -15,6 +15,8 @@
     "miapi.skin.name.bident": "Bident",
 
     "miapi.crafting_condition.cant_change_parent": "cannot Change Parent of Module",
+    "miapi.crafting_condition.require_obsidian_socket": "Requires Obsidian Socket",
+    "miapi.crafting_condition.require_prismarine_socket": "Requires Prismarine Socket",
 
     "miapi.create_item.sword": "Sword",
     "miapi.create_item.tool": "Tool",
@@ -201,5 +203,7 @@
     "miapi.module.arsenal_heart_of_the_sea_medium_gem_generic": "Heart of the Sea",
     "miapi.module.arsenal_heart_of_the_sea_medium_gem_generic.description": "Harnessing the Power of the Heart of the sea",
     "miapi.module.arsenal_nether_star_medium_gem_generic": "Wither Star",
-    "miapi.module.arsenal_nether_star_medium_gem_generic.description": "With the power of a Slain Wither you can gain Strength when slaughtering"
+    "miapi.module.arsenal_nether_star_medium_gem_generic.description": "With the power of a Slain Wither you can gain Strength when slaughtering",
+    "miapi.module.arsenal_ender_pearl_medium_gem": "Ender Pearl",
+    "miapi.module.arsenal_ender_pearl_medium_gem.description": "Using the Power of the Enderpearl using Spatial Interdiction to block Teleporting"
 }

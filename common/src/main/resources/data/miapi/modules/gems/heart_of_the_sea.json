@@ -27,7 +27,8 @@
             "attribute": "miapi:generic.swim_speed",
             "value": "0.10",
             "operation": "*",
-            "slot": "mainhand"
+            "slot": "mainhand",
+            "target_operation": "*"
         }
     ],
     "on_attack_potion": [
@@ -39,6 +40,27 @@
             "target_self": true
         }
     ],
+    "crafting_condition": {
+        "craftable": {
+            "type": "material",
+            "material": "stone_prismarine",
+            "error": {
+                "translate": "miapi.crafting_condition.require_prismarine_socket"
+            }
+        },
+        "on_craft": {
+            "type": true
+        }
+    },
+    "allowChangeParent": {
+        "type": "not",
+        "condition": {
+            "type": "true"
+        },
+        "error": {
+            "translate": "miapi.crafting_condition.cant_change_parent"
+        }
+    },
     "rarity": "uncommon",
     "priority": 1,
     "repairPriority": 0,
