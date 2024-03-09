@@ -20,6 +20,12 @@
 
     "miapi.material_group.gem_melee": "Gemstones",
 
+    "miapi.arsenal.gemstone_melee.strength_on_hit": "Strengthening",
+    "miapi.arsenal.gemstone_melee.strength_on_hit.description": "Applies Strength effect when hitting a Entity",
+    "miapi.arsenal.gemstone_melee.unstable": "Unstable",
+    "miapi.arsenal.gemstone_melee.unstable.description": "When you kill an entity with this Weapon the entity will Explode",
+    "miapi.arsenal.gemstone_melee.teleport_block": "Spatial interdiction",
+    "miapi.arsenal.gemstone_melee.teleport_block.description": "Targets cannot teleport away",
     "miapi.arsenal.gemstone_melee.radiant": "Radiant Poisonous",
     "miapi.arsenal.gemstone_melee.radiant.description": "Applies Poison and Glowing effect when hitting a Entity",
     "miapi.arsenal.gemstone_melee.armoring": "Armoring",
@@ -217,6 +223,11 @@
     "miapi.module.arsenal_small_gem_generic": "Small Gemstone",
     "miapi.module.arsenal_small_gem_generic.name": "[translation.[material.translation]]Small Gemstone",
     "miapi.module.arsenal_small_gem_generic.description": "A weak Magical Gemstone.",
+
+    "miapi.arsenal.tree_mining": "Lumbering",
+    "miapi.arsenal.tree_mining.description": "Amount of Logs mined at once",
+    "miapi.arsenal.compat.ht_treechop": "Lumbering",
+    "miapi.arsenal.compat.ht_treechop.description": "Amount of Cuts done cutting down a tree",
 
     "miapi.module.arsenal_end_crystal_medium_gem_generic": "End Crystal",
     "miapi.module.arsenal_end_crystal_medium_gem_generic.description": "Highly unstable Crystal harnessed to explode killed Enemies",

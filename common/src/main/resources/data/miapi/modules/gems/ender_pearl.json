@@ -35,8 +35,12 @@
             "value":"[module.gem_power]+3",
             "min": 0,
             "max": 1,
-            "header": "Spatial interdiction",
-            "description": "Targets cannot teleport away"
+            "header": {
+                "translate": "miapi.arsenal.gemstone_melee.teleport_block"
+            },
+            "description": {
+                "translate": "miapi.arsenal.gemstone_melee.teleport_block.description"
+            }
         }
     },
     "rarity": "uncommon",

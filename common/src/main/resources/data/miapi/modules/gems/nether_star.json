@@ -43,8 +43,12 @@
             "value":"[module.gem_power]/2+1",
             "min": 0,
             "max": 1,
-            "header": "Strengthening",
-            "description": "Applies Strength effect when hitting a Entity"
+            "header": {
+                "translate": "miapi.arsenal.gemstone_melee.strength_on_hit"
+            },
+            "description": {
+                "translate": "miapi.arsenal.gemstone_melee.strength_on_hit.description"
+            }
         }
     },
     "rarity": "rare",

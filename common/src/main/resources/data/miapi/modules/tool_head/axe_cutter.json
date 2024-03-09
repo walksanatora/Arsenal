@@ -67,10 +67,24 @@
             "miapi:axe"
         ]
     },
+    "gui_stat": {
+        "ht_treechop_gui": {
+            "value": "([material.mining_level]) ^ 3 + 2",
+            "min": 0,
+            "max": 10,
+            "header": {
+                "translate": "miapi.arsenal.tree_mining"
+            },
+            "description": {
+                "translate": "miapi.arsenal.tree_mining.description"
+            }
+        }
+    },
     "mining_shape": [
         {
             "condition": {
-                "type": "axe"
+                "type": "block_tag",
+                "tags": ["minecraft:logs"]
             },
             "modifiers": {
                 "require_same": true
@@ -81,7 +95,7 @@
             "shape": {
                 "type": "vein",
                 "size": 50,
-                "max": 200
+                "max": "([material.mining_level]) ^ 3 + 2"
             }
         }
     ],

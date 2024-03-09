@@ -79,8 +79,12 @@
             "value": 6,
             "min": 1,
             "max": 7,
-            "header": "Unstable",
-            "description": "When you kill an entity with this Weapon the entity will Explode"
+            "header": {
+                "translate": "miapi.arsenal.gemstone_melee.unstable"
+            },
+            "description": {
+                "translate": "miapi.arsenal.gemstone_melee.unstable.description"
+            }
         }
     },
     "allowedMaterial": {
