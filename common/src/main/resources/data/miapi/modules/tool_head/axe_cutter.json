@@ -33,7 +33,7 @@
                 "translation": {
                     "x": -8.0,
                     "y": -7.0,
-                    "z": -0.001
+                    "z": 0.0
                 },
                 "scale": {
                     "x": 1,
@@ -69,9 +69,9 @@
     },
     "gui_stat": {
         "ht_treechop_gui": {
-            "value": "([material.mining_level]) ^ 3 + 2",
+            "value": " min(200,(([material.mining_level] + [material.hardness] / 10 ) ^ 3 + 2))",
             "min": 0,
-            "max": 10,
+            "max": 20,
             "header": {
                 "translate": "miapi.arsenal.tree_mining"
             },
@@ -95,7 +95,7 @@
             "shape": {
                 "type": "vein",
                 "size": 50,
-                "max": "([material.mining_level]) ^ 3 + 2"
+                "max": " min(200,(([material.mining_level] + [material.hardness] / 10 ) ^ 3 + 2))"
             }
         }
     ],
