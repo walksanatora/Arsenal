@@ -13,5 +13,7 @@
 - added Medium Gemstone Socket Guard
 - added Dual Small Gemstone Socket Guard
 - added Small Gemstone Socket Pomel
+- added Hammer for 3x3 Mining
+- added Woddcutter Axe for instant Tree cutting
 - nerfed combos with Axe on the back
 - added Bident Skin
