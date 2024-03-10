@@ -9,7 +9,7 @@
             "attributes": [
                 {
                     "attribute": "miapi:generic.crit_chance",
-                    "value": "([module.gem_power] * 5 + 10)/100",
+                    "value": "([module.gem_power] * 10 + 5)/100",
                     "operation": "*",
                     "slot": "mainhand",
                     "target_operation": "*"

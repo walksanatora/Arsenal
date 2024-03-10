@@ -5,35 +5,7 @@
     ],
     "properties": {
         "gem_melee_generic": {
-            "on_attack_potion": [
-                {
-                    "potion": "minecraft:luck",
-                    "amplifier": "[module.gem_power]",
-                    "duration": "100",
-                    "target_self": true
-                }
-            ],
-            "gui_stat": {
-                "luck_on_hit": {
-                    "value": "[module.gem_power]+1",
-                    "min": 0,
-                    "max": 3,
-                    "header": {
-                        "translate": "miapi.arsenal.gemstone_melee.lucky"
-                    },
-                    "description": {
-                        "translate": "miapi.arsenal.gemstone_melee.lucky.description"
-                    }
-                }
-            },
-            "attributes": [
-                {
-                    "attribute": "generic.luck",
-                    "value": "[module.gem_power]",
-                    "operation": "+",
-                    "slot": "mainhand"
-                }
-            ]
+            "smite_damage": "1 + [module.gem_power]"
         }
     }
 }

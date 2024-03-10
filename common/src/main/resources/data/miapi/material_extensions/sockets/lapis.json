@@ -5,7 +5,7 @@
     ],
     "properties": {
         "gem_melee_generic": {
-            "smite_damage":" 1 + [module.gem_power]"
+            "luminiousLearning": "1 + [module.gem_power] * 2"
         }
     }
 }
