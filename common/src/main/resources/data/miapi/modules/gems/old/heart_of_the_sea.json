@@ -3,10 +3,26 @@
     "texture": {
         "path": "miapi:models/item/arsenal/gems/medium/[material.texture].json",
         "transform": {
-            "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "translation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
         }
     },
-    "allowedInSlots": ["gem_melee_medium"],
+    "allowedInSlots": [
+        "gem_melee_medium"
+    ],
     "materialProperty": [
         "default",
         "gem_melee_handheld",
@@ -41,6 +57,12 @@
         }
     ],
     "crafting_condition": {
+        "visible": {
+            "type": "not",
+            "condition": {
+                "type": "true"
+            }
+        },
         "craftable": {
             "type": "material",
             "material": "stone_prismarine",
@@ -63,11 +85,5 @@
     },
     "rarity": "uncommon",
     "priority": 1,
-    "repairPriority": 0,
-    "allowedMaterial": {
-        "allowedMaterials": [
-            "heart_of_the_sea"
-        ],
-        "cost": 1
-    }
+    "repairPriority": 0
 }

@@ -5,33 +5,14 @@
     ],
     "properties": {
         "gem_melee_generic": {
-            "on_attack_potion": [
+            "attributes": [
                 {
-                    "potion": "minecraft:poison",
-                    "amplifier": "ceil([module.gem_power] / 2) - 1",
-                    "duration": "20+[module.gem_power]*40",
-                    "showIcon": true
-                },
-                {
-                    "potion": "minecraft:glowing",
-                    "amplifier": "0",
-                    "duration": "20+[module.gem_power]*40",
-                    "target_self": false
+                    "attribute": "miapi:generic.attack_range",
+                    "value": "0.1 * [module.gem_power]",
+                    "operation": "+",
+                    "slot": "mainhand"
                 }
-            ],
-            "gui_stat": {
-                "radiant_poison_on_hit": {
-                    "value": "[module.gem_power]",
-                    "min": 0,
-                    "max": 2,
-                    "header": {
-                        "translate": "miapi.arsenal.gemstone_melee.radiant"
-                    },
-                    "description": {
-                        "translate": "miapi.arsenal.gemstone_melee.radiant.description"
-                    }
-                }
-            }
+            ]
         }
     }
 }
