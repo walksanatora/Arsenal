@@ -36,6 +36,7 @@
     "miapi.arsenal.gemstone_melee.quickening.description": "Applies Speed effect on wielder when hitting a Entity",
 
     "miapi.create_item.sword": "Sword",
+    "miapi.create_item.polearm": "Polearm",
     "miapi.create_item.tool": "Tool",
 
     "miapi.slot.tool_head.name": "Empty Tool Head Slot",
@@ -236,5 +237,7 @@
     "miapi.module.arsenal_nether_star_medium_gem_generic": "Wither Star",
     "miapi.module.arsenal_nether_star_medium_gem_generic.description": "With the power of a Slain Wither you can gain Strength when slaughtering",
     "miapi.module.arsenal_ender_pearl_medium_gem": "Ender Pearl",
-    "miapi.module.arsenal_ender_pearl_medium_gem.description": "Using the Power of the Enderpearl using Spatial Interdiction to block Teleporting"
+    "miapi.module.arsenal_ender_pearl_medium_gem.description": "Using the Power of the Enderpearl using Spatial Interdiction to block Teleporting",
+    "miapi.module.arsenal_conduit_medium_gem_generic": "Conduit",
+    "miapi.module.arsenal_conduit_medium_gem_generic.description": "Harnessing the power of a Conduit in a Item"
 }
