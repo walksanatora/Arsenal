@@ -1,19 +1,3 @@
-## v1.7 (1.20.1)
-- added Sockets
-  - added generic Gem Socketables with 
-    - Redstone applies speed 2 on hit
-    - Diamond applies resistance on hit and increases Durability
-    - Emerald gives fortune and luck
-    - Lapis gives Smiting Damage
-    - Amethyst applies poison and Glowing on hit
-  - added End Crystal Socket exploding on kill
-  - added Heart of the Sea Socket increases Swim speed and damage against Aquatic Mobs
-  - added Nether Star Socket to add Strength 2 on hit
-  - added Ender pearl Socket to add teleport block Effect called Spatial Interdiction
-- added Medium Gemstone Socket Guard
-- added Dual Small Gemstone Socket Guard
-- added Small Gemstone Socket Pomel
-- added Hammer for 3x3 Mining
-- added Lumber Axe for instant Tree cutting
-- nerfed combos with Axe on the back
-- added Bident Skin
+## v1.8 (1.20.1)
+- decluttered by introducing a Tool-Adapter module to seperate tool and Blade Modules
+- changed Nether-Star to use Nemesis Property

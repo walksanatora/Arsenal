@@ -6,17 +6,22 @@
         },
         "subModules": {
             "0": {
-                "module": "axe_front",
-                "moduleData": {
-                    "properties": "{\"material\":\"wood\"}"
-                },
+                "module": "tool_adapter",
                 "subModules": {
                     "0": {
-                        "module": "tool_back",
+                        "module": "axe_front",
                         "moduleData": {
                             "properties": "{\"material\":\"wood\"}"
                         },
-                        "subModules": {}
+                        "subModules": {
+                            "0": {
+                                "module": "tool_back",
+                                "moduleData": {
+                                    "properties": "{\"material\":\"wood\"}"
+                                },
+                                "subModules": {}
+                            }
+                        }
                     }
                 }
             }
@@ -29,17 +34,22 @@
         },
         "subModules": {
             "0": {
-                "module": "axe_front",
-                "moduleData": {
-                    "properties": "{\"material\":\"stone\"}"
-                },
+                "module": "tool_adapter",
                 "subModules": {
                     "0": {
-                        "module": "tool_back",
+                        "module": "axe_front",
                         "moduleData": {
                             "properties": "{\"material\":\"stone\"}"
                         },
-                        "subModules": {}
+                        "subModules": {
+                            "0": {
+                                "module": "tool_back",
+                                "moduleData": {
+                                    "properties": "{\"material\":\"stone\"}"
+                                },
+                                "subModules": {}
+                            }
+                        }
                     }
                 }
             }
@@ -52,17 +62,22 @@
         },
         "subModules": {
             "0": {
-                "module": "axe_front",
-                "moduleData": {
-                    "properties": "{\"material\":\"iron\"}"
-                },
+                "module": "tool_adapter",
                 "subModules": {
                     "0": {
-                        "module": "tool_back",
+                        "module": "axe_front",
                         "moduleData": {
                             "properties": "{\"material\":\"iron\"}"
                         },
-                        "subModules": {}
+                        "subModules": {
+                            "0": {
+                                "module": "tool_back",
+                                "moduleData": {
+                                    "properties": "{\"material\":\"iron\"}"
+                                },
+                                "subModules": {}
+                            }
+                        }
                     }
                 }
             }
@@ -75,17 +90,22 @@
         },
         "subModules": {
             "0": {
-                "module": "axe_front",
-                "moduleData": {
-                    "properties": "{\"material\":\"gold\"}"
-                },
+                "module": "tool_adapter",
                 "subModules": {
                     "0": {
-                        "module": "tool_back",
+                        "module": "axe_front",
                         "moduleData": {
                             "properties": "{\"material\":\"gold\"}"
                         },
-                        "subModules": {}
+                        "subModules": {
+                            "0": {
+                                "module": "tool_back",
+                                "moduleData": {
+                                    "properties": "{\"material\":\"gold\"}"
+                                },
+                                "subModules": {}
+                            }
+                        }
                     }
                 }
             }
@@ -98,17 +118,23 @@
         },
         "subModules": {
             "0": {
-                "module": "axe_front",
-                "moduleData": {
-                    "properties": "{\"material\":\"diamond\"}"
-                },
+                "module": "tool_adapter",
                 "subModules": {
                     "0": {
-                        "module": "tool_back",
+                        "module": "axe_front",
                         "moduleData": {
                             "properties": "{\"material\":\"diamond\"}"
                         },
-                        "subModules": {}
+                        "subModules": {
+                            "0": {
+                                "module": "tool_back",
+                                "moduleData": {
+                                    "properties": "{\"material\":\"diamond\"}"
+                                },
+                                "subModules": {
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -121,17 +147,23 @@
         },
         "subModules": {
             "0": {
-                "module": "axe_front",
-                "moduleData": {
-                    "properties": "{\"material\":\"netherite\"}"
-                },
+                "module": "tool_adapter",
                 "subModules": {
                     "0": {
-                        "module": "tool_back",
+                        "module": "axe_front",
                         "moduleData": {
                             "properties": "{\"material\":\"netherite\"}"
                         },
-                        "subModules": {}
+                        "subModules": {
+                            "0": {
+                                "module": "tool_back",
+                                "moduleData": {
+                                    "properties": "{\"material\":\"netherite\"}"
+                                },
+                                "subModules": {
+                                }
+                            }
+                        }
                     }
                 }
             }

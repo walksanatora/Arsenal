@@ -30,8 +30,7 @@
         "0": {
             "allowed": [
                 "sword_guard",
-                "sword_blade_small",
-                "tool_head"
+                "sword_blade_small"
             ],
             "translationKey": "miapi.slot.guard.name",
             "transform": {

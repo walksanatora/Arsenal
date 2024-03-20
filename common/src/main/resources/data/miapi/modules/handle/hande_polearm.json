@@ -41,7 +41,7 @@
         "0": {
             "allowed": [
                 "polearm_blade",
-                "tool_head"
+                "tool_adapter"
             ],
             "translationKey": "miapi.slot.sword_blade.name",
             "transform": {

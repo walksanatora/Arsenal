@@ -21,36 +21,7 @@
         "gem_melee_generic",
         "gem_melee_medium_generic"
     ],
-    "on_attack_potion": [
-        {
-            "potion": "minecraft:strength",
-            "amplifier": "[module.gem_power]/2",
-            "duration": "([module.gem_power]+3)*20",
-            "showIcon": true,
-            "target_self": true
-        }
-    ],
-    "attributes": [
-        {
-            "attribute": "miapi:generic.crit_damage",
-            "value": "([module.gem_power])*5",
-            "operation": "*",
-            "slot": "mainhand"
-        }
-    ],
-    "gui_stat": {
-        "strength_on_hit": {
-            "value":"[module.gem_power]/2+1",
-            "min": 0,
-            "max": 1,
-            "header": {
-                "translate": "miapi.arsenal.gemstone_melee.strength_on_hit"
-            },
-            "description": {
-                "translate": "miapi.arsenal.gemstone_melee.strength_on_hit.description"
-            }
-        }
-    },
+    "nemesis": 1.0,
     "rarity": "rare",
     "priority": 2,
     "repairPriority": 0,

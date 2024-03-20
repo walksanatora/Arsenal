@@ -6,11 +6,16 @@
         },
         "subModules": {
             "0": {
-                "module": "shovel",
-                "moduleData": {
-                    "properties": "{\"material\":\"wood\"}"
-                },
-                "subModules": {}
+                "module": "tool_adapter",
+                "subModules": {
+                    "0": {
+                        "module": "shovel",
+                        "moduleData": {
+                            "properties": "{\"material\":\"wood\"}"
+                        },
+                        "subModules": {}
+                    }
+                }
             }
         }
     },
@@ -21,11 +26,16 @@
         },
         "subModules": {
             "0": {
-                "module": "shovel",
-                "moduleData": {
-                    "properties": "{\"material\":\"stone\"}"
-                },
-                "subModules": {}
+                "module": "tool_adapter",
+                "subModules": {
+                    "0": {
+                        "module": "shovel",
+                        "moduleData": {
+                            "properties": "{\"material\":\"stone\"}"
+                        },
+                        "subModules": {}
+                    }
+                }
             }
         }
     },
@@ -36,11 +46,16 @@
         },
         "subModules": {
             "0": {
-                "module": "shovel",
-                "moduleData": {
-                    "properties": "{\"material\":\"iron\"}"
-                },
-                "subModules": {}
+                "module": "tool_adapter",
+                "subModules": {
+                    "0": {
+                        "module": "shovel",
+                        "moduleData": {
+                            "properties": "{\"material\":\"iron\"}"
+                        },
+                        "subModules": {}
+                    }
+                }
             }
         }
     },
@@ -51,11 +66,16 @@
         },
         "subModules": {
             "0": {
-                "module": "shovel",
-                "moduleData": {
-                    "properties": "{\"material\":\"gold\"}"
-                },
-                "subModules": {}
+                "module": "tool_adapter",
+                "subModules": {
+                    "0": {
+                        "module": "shovel",
+                        "moduleData": {
+                            "properties": "{\"material\":\"gold\"}"
+                        },
+                        "subModules": {}
+                    }
+                }
             }
         }
     },
@@ -66,11 +86,16 @@
         },
         "subModules": {
             "0": {
-                "module": "shovel",
-                "moduleData": {
-                    "properties": "{\"material\":\"diamond\"}"
-                },
-                "subModules": {}
+                "module": "tool_adapter",
+                "subModules": {
+                    "0": {
+                        "module": "shovel",
+                        "moduleData": {
+                            "properties": "{\"material\":\"diamond\"}"
+                        },
+                        "subModules": {}
+                    }
+                }
             }
         }
     },
@@ -81,11 +106,16 @@
         },
         "subModules": {
             "0": {
-                "module": "shovel",
-                "moduleData": {
-                    "properties": "{\"material\":\"netherite\"}"
-                },
-                "subModules": {}
+                "module": "tool_adapter",
+                "subModules": {
+                    "0": {
+                        "module": "shovel",
+                        "moduleData": {
+                            "properties": "{\"material\":\"netherite\"}"
+                        },
+                        "subModules": {}
+                    }
+                }
             }
         }
     }

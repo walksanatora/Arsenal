@@ -28,7 +28,6 @@
     "slots": {
         "0": {
             "allowed": [
-                "tool_head",
                 "sword_guard",
                 "sword_blade_small"
             ],
