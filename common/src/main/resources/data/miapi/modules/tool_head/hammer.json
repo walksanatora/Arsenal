@@ -77,7 +77,7 @@
         "cost": 4
     },
     "mining_level": {
-        "axe": "[material.mining_level]"
+        "pickaxe": "[material.mining_level]"
     },
     "attributes": [
         {
