@@ -5,7 +5,15 @@
     ],
     "properties": {
         "gem_melee_generic": {
-            "smite_damage": "1 + [module.gem_power]"
+            "attributes": [
+                {
+                    "attribute": "miapi:generic.crit_damage",
+                    "value": "([module.gem_power] * 10)/100",
+                    "operation": "*",
+                    "slot": "mainhand",
+                    "target_operation": "*"
+                }
+            ]
         }
     }
 }
