@@ -46,6 +46,26 @@
     "miapi.slot.guard.name" : "Empty Guard Slot",
     "miapi.slot.gem.name" : "Empty Socket",
 
+    "miapi.module.handheld_gauntlets": "Gauntlets",
+    "miapi.module.handheld_gauntlets.name": "[translation.[material.translation]]Gauntlets",
+    "miapi.module.handheld_gauntlets.description": "Gauntlets are a great protection of your hands while smashing them into something.",
+
+    "miapi.module.handle_handheld": "Handheld",
+    "miapi.module.handle_handheld.name": "[translation.[material.translation]]Handle",
+    "miapi.module.handle_handheld.description": "A Handle for Single hand small Weapons.",
+
+    "miapi.module.handheld_katar": "Katars",
+    "miapi.module.handheld_katar.name": "[translation.[material.translation]]Katars",
+    "miapi.module.handheld_katar.description": "A Small Dagger designed for swift, close-range combat.",
+
+    "miapi.module.handheld_knuckles": "Knuckles",
+    "miapi.module.handheld_knuckles.name": "[translation.[material.translation]]Knuckles",
+    "miapi.module.handheld_knuckles.description": "Knuckles, devesting faces for ages.",
+
+    "miapi.module.handheld_tonfa": "Tonfa",
+    "miapi.module.handheld_tonfa.name": "[translation.[material.translation]]Tonfa",
+    "miapi.module.handheld_tonfa.description": "A Tonfa, great to stun opponents.",
+
 
     "miapi.ability.heavy_attack.title": "Heavy Attack",
     "miapi.ability.heavy_attack.description": "Right Click to Heavy Attack\nDealing %s times the Damage and %s blocks of Range\nRight click has to be held for %s seconds",
@@ -238,10 +258,14 @@
     "miapi.module.arsenal_end_crystal_medium_gem_generic.description": "Highly unstable Crystal harnessed to explode killed Enemies",
     "miapi.module.arsenal_heart_of_the_sea_medium_gem_generic": "Heart of the Sea",
     "miapi.module.arsenal_heart_of_the_sea_medium_gem_generic.description": "Harnessing the Power of the Heart of the sea",
-    "miapi.module.arsenal_nether_star_medium_gem_generic": "Wither Star",
-    "miapi.module.arsenal_nether_star_medium_gem_generic.description": "With the power of a Slain Wither you can gain Strength when slaughtering",
+    "miapi.module.arsenal_nether_star_medium_gem_generic": "Nether Star",
+    "miapi.module.arsenal_nether_star_medium_gem_generic.description": "With the power of a Slain Wither you can Channel its hatred to slay one specific Target",
     "miapi.module.arsenal_ender_pearl_medium_gem": "Ender Pearl",
     "miapi.module.arsenal_ender_pearl_medium_gem.description": "Using the Power of the Enderpearl using Spatial Interdiction to block Teleporting",
     "miapi.module.arsenal_conduit_medium_gem_generic": "Conduit",
-    "miapi.module.arsenal_conduit_medium_gem_generic.description": "Harnessing the power of a Conduit in a Item"
+    "miapi.module.arsenal_conduit_medium_gem_generic.description": "Harnessing the power of a Conduit in a Item",
+
+    "miapi.material.custom.end_crystal": "End Crystal ",
+    "miapi.material.custom.nether_star": "Nether Star ",
+    "miapi.material.custom.heart_of_the_sea": "Heart of the Sea "
 }
