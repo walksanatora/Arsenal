@@ -76,7 +76,7 @@
             "slot": "mainhand"
         },
         {
-            "attribute": "miapi:generic.armor",
+            "attribute": "minecraft:generic.armor",
             "value": "[material.flexibility]*0.5 + [material.hardness]*0.2",
             "operation": "+",
             "slot": "mainhand"
