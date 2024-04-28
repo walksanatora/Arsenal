@@ -87,15 +87,15 @@
 
     "miapi.module.blade_katana": "Katana Blade",
     "miapi.module.blade_katana.name": "[translation.[material.translation]]Katana",
-    "miapi.module.blade_katana.description": "A traditional Japanese sword known for its sharpness and precision.",
+    "miapi.module.blade_katana.description": "A traditional Japanese sword known for its sharpness and precision, deals poorly with armor",
 
     "miapi.module.blade_longsword": "Longsword Blade",
     "miapi.module.blade_longsword.name": "[translation.[material.translation]]Longsword",
-    "miapi.module.blade_longsword.description": "A versatile and balanced sword that offers a good balance between speed and power.",
+    "miapi.module.blade_longsword.description": "A versatile and balanced sword that offers a good balance between speed and power and range.",
 
     "miapi.module.blade_rapier": "Rapier Blade",
     "miapi.module.blade_rapier.name": "[translation.[material.translation]]Rapier",
-    "miapi.module.blade_rapier.description": "A slender and agile sword designed for thrusting attacks and quick maneuvers.",
+    "miapi.module.blade_rapier.description": "A slender and agile sword designed for piercing armor.",
 
     "miapi.module.blade_sword": "Sword Blade",
     "miapi.module.blade_sword.name": "[translation.[material.translation]]Sword",
