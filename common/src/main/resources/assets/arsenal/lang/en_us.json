@@ -1,6 +1,7 @@
 {
     "miapi.skin.name.star_wars": "",
     "miapi.skin.name.buster": "Ducks Buster Sword",
+    "miapi.skin.name.old_greatsword": "Alternative Greatsword",
     "miapi.skin.name.dragon_slayer": "Dragon Slayer Sword",
     "miapi.skin.name.masamune": "Masamune",
     "miapi.skin.name.soul_slayer":"Soul Edge",
@@ -83,7 +84,7 @@
 
     "miapi.module.blade_zweihaender": "Zweihänder Blade",
     "miapi.module.blade_zweihaender.name": "[translation.[material.translation]]Zweihänder",
-    "miapi.module.blade_zweihaender.description": "A medival german Blade, great for parrying and its thin blade can pierce armor.",
+    "miapi.module.blade_zweihaender.description": "A medieval german Blade, great for parrying and its thin blade can pierce armor.",
 
     "miapi.module.blade_katana": "Katana Blade",
     "miapi.module.blade_katana.name": "[translation.[material.translation]]Katana",
@@ -182,6 +183,7 @@
     "miapi.module.handle_short.name": "[translation.[material.translation]]Short Handle",
     "miapi.module.handle_short.description": "A shorter handle suitable for one-handed swords, providing improved maneuverability.",
 
+    "miapi.module.twin_blade.name": "[translation.[material.translation]]Twin Blade",
     "miapi.module.handle_twin": "Twin Handle",
     "miapi.module.handle_twin.name": "[translation.[material.translation]]Twin Handle",
     "miapi.module.handle_twin.description": "Am impractical Twin Handle for Double the Blades.\n Looks cool though.",

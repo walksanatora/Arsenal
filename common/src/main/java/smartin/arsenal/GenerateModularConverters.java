@@ -23,8 +23,8 @@ public class GenerateModularConverters {
         ReloadEvents.START.subscribe(isClient -> {
             modularItem.clear();
         });
-        ModularItemStackConverter.converters.add((stack)->{
-            if(modularItem.containsKey(stack.getItem())){
+        ModularItemStackConverter.converters.add((stack) -> {
+            if (modularItem.containsKey(stack.getItem())) {
                 return ItemIdProperty.changeId(modularItem.get(stack.getItem()).convert(stack));
             }
             return stack;
@@ -44,12 +44,12 @@ public class GenerateModularConverters {
         });
     }
 
-    interface Converter{
+    interface Converter {
         ItemStack convert(ItemStack raw);
     }
 
     protected void addSwordItem(Material material, Item item) {
-        modularItem.put(item,(stack)->{
+        modularItem.put(item, (stack) -> {
             ItemStack modularItem = new ItemStack(RegistryInventory.modularItem);
             String swordData = new StringBuilder()
                     .append("{\n")
@@ -82,7 +82,7 @@ public class GenerateModularConverters {
                     .append("            }\n")
                     .append("        }\n")
                     .append("    }").toString();
-            swordData = swordData.replaceAll("gold",material.getKey());
+            swordData = swordData.replaceAll("gold", material.getKey());
             modularItem.getOrCreateNbt().copyFrom(stack.getOrCreateNbt());
             ItemModule.ModuleInstance moduleInstance = ItemModule.ModuleInstance.fromString(swordData);
             moduleInstance.getRoot().writeToItem(modularItem);
@@ -91,32 +91,32 @@ public class GenerateModularConverters {
     }
 
     protected void addAxeItem(Material material, Item item) {
-        modularItem.put(item,(stack)->{
+        modularItem.put(item, (stack) -> {
             ItemStack modularItem = new ItemStack(RegistryInventory.modularItem);
             String swordData = "{\n" +
-                    "        \"module\": \"handle_tool\",\n" +
-                    "        \"moduleData\": {\n" +
-                    "            \"properties\": \"{\\\"material\\\":\\\"wood\\\"}\"\n" +
-                    "        },\n" +
-                    "        \"subModules\": {\n" +
-                    "            \"0\": {\n" +
-                    "                \"module\": \"axe_front\",\n" +
-                    "                \"moduleData\": {\n" +
-                    "                    \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
-                    "                },\n" +
-                    "                \"subModules\": {\n" +
-                    "                    \"0\": {\n" +
-                    "                        \"module\": \"tool_back\",\n" +
-                    "                        \"moduleData\": {\n" +
-                    "                            \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
-                    "                        },\n" +
-                    "                        \"subModules\": {}\n" +
-                    "                    }\n" +
-                    "                }\n" +
-                    "            }\n" +
-                    "        }\n" +
-                    "    }";
-            swordData = swordData.replaceAll("gold",material.getKey());
+                               "        \"module\": \"handle_tool\",\n" +
+                               "        \"moduleData\": {\n" +
+                               "            \"properties\": \"{\\\"material\\\":\\\"wood\\\"}\"\n" +
+                               "        },\n" +
+                               "        \"subModules\": {\n" +
+                               "            \"0\": {\n" +
+                               "                \"module\": \"axe_front\",\n" +
+                               "                \"moduleData\": {\n" +
+                               "                    \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
+                               "                },\n" +
+                               "                \"subModules\": {\n" +
+                               "                    \"0\": {\n" +
+                               "                        \"module\": \"tool_back\",\n" +
+                               "                        \"moduleData\": {\n" +
+                               "                            \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
+                               "                        },\n" +
+                               "                        \"subModules\": {}\n" +
+                               "                    }\n" +
+                               "                }\n" +
+                               "            }\n" +
+                               "        }\n" +
+                               "    }";
+            swordData = swordData.replaceAll("gold", material.getKey());
             modularItem.getOrCreateNbt().copyFrom(stack.getOrCreateNbt());
             ItemModule.ModuleInstance moduleInstance = ItemModule.ModuleInstance.fromString(swordData);
             moduleInstance.getRoot().writeToItem(modularItem);
@@ -125,32 +125,32 @@ public class GenerateModularConverters {
     }
 
     protected void addPickAxeItem(Material material, Item item) {
-        modularItem.put(item,(stack)->{
+        modularItem.put(item, (stack) -> {
             ItemStack modularItem = new ItemStack(RegistryInventory.modularItem);
             String swordData = "{\n" +
-                    "        \"module\": \"handle_tool\",\n" +
-                    "        \"moduleData\": {\n" +
-                    "            \"properties\": \"{\\\"material\\\":\\\"wood\\\"}\"\n" +
-                    "        },\n" +
-                    "        \"subModules\": {\n" +
-                    "            \"0\": {\n" +
-                    "                \"module\": \"pickaxe_front\",\n" +
-                    "                \"moduleData\": {\n" +
-                    "                    \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
-                    "                },\n" +
-                    "                \"subModules\": {\n" +
-                    "                    \"0\": {\n" +
-                    "                        \"module\": \"pickaxe_back\",\n" +
-                    "                        \"moduleData\": {\n" +
-                    "                            \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
-                    "                        },\n" +
-                    "                        \"subModules\": {}\n" +
-                    "                    }\n" +
-                    "                }\n" +
-                    "            }\n" +
-                    "        }\n" +
-                    "    }";
-            swordData = swordData.replaceAll("gold",material.getKey());
+                               "        \"module\": \"handle_tool\",\n" +
+                               "        \"moduleData\": {\n" +
+                               "            \"properties\": \"{\\\"material\\\":\\\"wood\\\"}\"\n" +
+                               "        },\n" +
+                               "        \"subModules\": {\n" +
+                               "            \"0\": {\n" +
+                               "                \"module\": \"pickaxe_front\",\n" +
+                               "                \"moduleData\": {\n" +
+                               "                    \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
+                               "                },\n" +
+                               "                \"subModules\": {\n" +
+                               "                    \"0\": {\n" +
+                               "                        \"module\": \"pickaxe_back\",\n" +
+                               "                        \"moduleData\": {\n" +
+                               "                            \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
+                               "                        },\n" +
+                               "                        \"subModules\": {}\n" +
+                               "                    }\n" +
+                               "                }\n" +
+                               "            }\n" +
+                               "        }\n" +
+                               "    }";
+            swordData = swordData.replaceAll("gold", material.getKey());
             modularItem.getOrCreateNbt().copyFrom(stack.getOrCreateNbt());
             ItemModule.ModuleInstance moduleInstance = ItemModule.ModuleInstance.fromString(swordData);
             moduleInstance.getRoot().writeToItem(modularItem);
@@ -159,24 +159,24 @@ public class GenerateModularConverters {
     }
 
     protected void addShovelItem(Material material, Item item) {
-        modularItem.put(item,(stack)->{
+        modularItem.put(item, (stack) -> {
             ItemStack modularItem = new ItemStack(RegistryInventory.modularItem);
             String swordData = "{\n" +
-                    "        \"module\": \"handle_tool\",\n" +
-                    "        \"moduleData\": {\n" +
-                    "            \"properties\": \"{\\\"material\\\":\\\"wood\\\"}\"\n" +
-                    "        },\n" +
-                    "        \"subModules\": {\n" +
-                    "            \"0\": {\n" +
-                    "                \"module\": \"shovel\",\n" +
-                    "                \"moduleData\": {\n" +
-                    "                    \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
-                    "                },\n" +
-                    "                \"subModules\": {}\n" +
-                    "            }\n" +
-                    "        }\n" +
-                    "    }";
-            swordData = swordData.replaceAll("gold",material.getKey());
+                               "        \"module\": \"handle_tool\",\n" +
+                               "        \"moduleData\": {\n" +
+                               "            \"properties\": \"{\\\"material\\\":\\\"wood\\\"}\"\n" +
+                               "        },\n" +
+                               "        \"subModules\": {\n" +
+                               "            \"0\": {\n" +
+                               "                \"module\": \"shovel\",\n" +
+                               "                \"moduleData\": {\n" +
+                               "                    \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
+                               "                },\n" +
+                               "                \"subModules\": {}\n" +
+                               "            }\n" +
+                               "        }\n" +
+                               "    }";
+            swordData = swordData.replaceAll("gold", material.getKey());
             modularItem.getOrCreateNbt().copyFrom(stack.getOrCreateNbt());
             ItemModule.ModuleInstance moduleInstance = ItemModule.ModuleInstance.fromString(swordData);
             moduleInstance.getRoot().writeToItem(modularItem);
@@ -185,32 +185,32 @@ public class GenerateModularConverters {
     }
 
     protected void addHoeItem(Material material, Item item) {
-        modularItem.put(item,(stack)->{
+        modularItem.put(item, (stack) -> {
             ItemStack modularItem = new ItemStack(RegistryInventory.modularItem);
             String swordData = "{\n" +
-                    "        \"module\": \"handle_tool\",\n" +
-                    "        \"moduleData\": {\n" +
-                    "            \"properties\": \"{\\\"material\\\":\\\"wood\\\"}\"\n" +
-                    "        },\n" +
-                    "        \"subModules\": {\n" +
-                    "            \"0\": {\n" +
-                    "                \"module\": \"hoe_front\",\n" +
-                    "                \"moduleData\": {\n" +
-                    "                    \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
-                    "                },\n" +
-                    "                \"subModules\": {\n" +
-                    "                    \"0\": {\n" +
-                    "                        \"module\": \"tool_back\",\n" +
-                    "                        \"moduleData\": {\n" +
-                    "                            \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
-                    "                        },\n" +
-                    "                        \"subModules\": {}\n" +
-                    "                    }\n" +
-                    "                }\n" +
-                    "            }\n" +
-                    "        }\n" +
-                    "    }";
-            swordData = swordData.replaceAll("gold",material.getKey());
+                               "        \"module\": \"handle_tool\",\n" +
+                               "        \"moduleData\": {\n" +
+                               "            \"properties\": \"{\\\"material\\\":\\\"wood\\\"}\"\n" +
+                               "        },\n" +
+                               "        \"subModules\": {\n" +
+                               "            \"0\": {\n" +
+                               "                \"module\": \"hoe_front\",\n" +
+                               "                \"moduleData\": {\n" +
+                               "                    \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
+                               "                },\n" +
+                               "                \"subModules\": {\n" +
+                               "                    \"0\": {\n" +
+                               "                        \"module\": \"tool_back\",\n" +
+                               "                        \"moduleData\": {\n" +
+                               "                            \"properties\": \"{\\\"material\\\":\\\"gold\\\"}\"\n" +
+                               "                        },\n" +
+                               "                        \"subModules\": {}\n" +
+                               "                    }\n" +
+                               "                }\n" +
+                               "            }\n" +
+                               "        }\n" +
+                               "    }";
+            swordData = swordData.replaceAll("gold", material.getKey());
             modularItem.getOrCreateNbt().copyFrom(stack.getOrCreateNbt());
             ItemModule.ModuleInstance moduleInstance = ItemModule.ModuleInstance.fromString(swordData);
             moduleInstance.getRoot().writeToItem(modularItem);
