@@ -7,3 +7,5 @@
 - changed Quartz to a small amount of Critical Damage
 - added handheld item (knuckles, tonfa, katar and gloves)
 - adjusted Twin Blade behaviour to have a have custom name and ItemID
+- added zh_cn localization
+- fixed negative axe dmg bug
