@@ -1,0 +1,39 @@
+{
+    "path": "game_breaker/katana",
+    "module": "blade_katana",
+    "replace": {
+        "texture": {
+            "path": "miapi:models/item/sword/blade/katana/game_breaker/[material.texture].json",
+            "transform": {
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "translation": {
+                    "x": 1.0,
+                    "y": 2.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        "guiOffset": {
+            "sizeX": 4,
+            "sizeY": 4
+        }
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": ["game_breaker"]
+    },
+    "texture": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}
