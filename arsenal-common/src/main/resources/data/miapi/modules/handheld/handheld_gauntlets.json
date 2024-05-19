@@ -90,7 +90,7 @@
         "head"
     ],
     "modelTransform": {
-        "replace": {
+        "display": {
             "thirdperson_righthand": {
                 "rotation": {
                     "x": 0,
@@ -111,13 +111,13 @@
             "thirdperson_lefthand": {
                 "rotation": {
                     "x": 0,
-                    "y": 90,
-                    "z": -45
+                    "y": 0,
+                    "z": 0
                 },
                 "translation": {
                     "x": -2.75,
                     "y": 0,
-                    "z": -2.5
+                    "z": 2.5
                 },
                 "scale": {
                     "x": 0.8,
@@ -144,7 +144,7 @@
             },
             "firstperson_lefthand": {
                 "rotation": {
-                    "x": -90,
+                    "x": 0,
                     "y": 0,
                     "z": 0
                 },
@@ -194,9 +194,31 @@
                 }
             },
             "fixed": {
+                "translation": {
+                    "x": 3,
+                    "y": 0,
+                    "z": 1
+                },
                 "rotation": {
-                    "x": 0,
-                    "y": 180,
+                    "x": 90,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            },
+            "gui": {
+                "translation": {
+                    "x": 3.5,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 90,
+                    "y": 0,
                     "z": 0
                 },
                 "scale": {
@@ -209,6 +231,6 @@
     },
     "durability": "[material.durability]* 0.5",
     "better_combat_config": {
-        "parent": "bettercombat:dagger"
+        "parent": "bettercombat:fist"
     }
 }

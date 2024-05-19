@@ -1,9 +1,10 @@
 plugins {
     id "com.github.johnrengelman.shadow" version "7.1.2"
 }
+
 architectury {
     platformSetupLoomIde()
-    forge()
+    fabric()
 }
 
 repositories {
@@ -42,35 +43,34 @@ configurations {
     shadowCommon // Don't use shadow from the shadow plugin because we don't want IDEA to index this.
     compileClasspath.extendsFrom common
     runtimeClasspath.extendsFrom common
-    developmentForge.extendsFrom common
+    developmentFabric.extendsFrom common
 }
 
 dependencies {
-    forge "net.minecraftforge:forge:${rootProject.forge_version}"
+    modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
+    modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
     // Remove the next line if you don't want to depend on the API
-    modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
+    modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
 
-    //modApi("top.theillusivec4.caelus:caelus-forge:${rootProject.forge_caelus_version}")
+    //modApi("com.jamieswhiteshirt:reach-entity-attributes:$rootProject.fabric_reach_range_version")
+    //modApi ("maven.modrinth:modular-item-api:${rootProject.miapi_version}-fabric")
     //implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
-    //modApi ("maven.modrinth:modular-item-api:${rootProject.miapi_version}-forge")
 
-    modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-forge:${rootProject.miapi_version}-${rootProject.minecraft_version}")
+    modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-fabric:${rootProject.miapi_version}-${rootProject.minecraft_version}")
 
-    common(project(path: ":common", configuration: "namedElements")) { transitive false }
-    shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
+    common(project(path: ":arsenal-common", configuration: "namedElements")) { transitive false }
+    shadowCommon(project(path: ":arsenal-common", configuration: "transformProductionFabric")) { transitive false }
 }
 
 processResources {
     inputs.property "version", project.version
 
-    filesMatching("META-INF/mods.toml") {
+    filesMatching("fabric.mod.json") {
         expand "version": project.version
     }
 }
 
 shadowJar {
-    exclude "fabric.mod.json"
-
     configurations = [project.configurations.shadowCommon]
     archiveClassifier.set("dev-shadow")
 }
@@ -86,7 +86,7 @@ jar {
 }
 
 sourcesJar {
-    def commonSources = project(":common").sourcesJar
+    def commonSources = project(":arsenal-common").sourcesJar
     dependsOn commonSources
     from commonSources.archiveFile.map { zipTree(it) }
 }
@@ -98,17 +98,17 @@ components.java {
 }
 
 tasks.register('githubPublish') {
-    finalizedBy ':forge:publish'
+    finalizedBy ':arsenal-fabric:publish'
     group = 'publishing'
 
     doLast {
-        publishing.publications.mavenForge.groupId = "com.${rootProject.github}"
+        publishing.publications.mavenFabric.groupId = "com.${rootProject.github}"
     }
 }
 
 publishing {
     publications {
-        mavenForge(MavenPublication) {
+        mavenFabric(MavenPublication) {
             artifactId = rootProject.archives_base_name + "-" + project.name
             version = rootProject.mod_version + "-" + rootProject.minecraft_version
 

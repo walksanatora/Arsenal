@@ -9,6 +9,6 @@ pluginManagement {
 
 rootProject.name = 'arsenal'
 
-include("common")
-include("fabric")
-include("forge")
+include("arsenal-common")
+include("arsenal-fabric")
+include("arsenal-forge")
