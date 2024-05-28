@@ -1,0 +1,23 @@
+{
+    "path": "pride/pride-axe_throwing_3",
+    "module": "axe_throwing",
+    "replace": {
+        "overlay_texture_model": [
+            {
+                "texture": "miapi:item/tool/head/axe_throwing/default",
+                "modelTargetType": "path",
+                "modelTargetInfo": "tool/head/axe_throwing",
+                "colorProvider": "material:rainbow_pride_3"
+            }
+        ]
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": ["pride","supporter"]
+    },
+    "texture": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}

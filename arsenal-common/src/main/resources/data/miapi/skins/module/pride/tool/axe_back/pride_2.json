@@ -1,0 +1,23 @@
+{
+    "path": "pride/pride-axe_back_2",
+    "module": "axe_back",
+    "replace": {
+        "overlay_texture_model": [
+            {
+                "texture": "miapi:item/tool/head/axe_back/axe_back",
+                "modelTargetType": "path",
+                "modelTargetInfo": "/tool/head/axe_back",
+                "colorProvider": "material:rainbow_pride_2"
+            }
+        ]
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": ["pride","supporter"]
+    },
+    "texture": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}

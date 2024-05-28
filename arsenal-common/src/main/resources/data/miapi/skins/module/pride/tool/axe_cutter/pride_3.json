@@ -1,0 +1,23 @@
+{
+    "path": "pride/pride-axe_cutter_3",
+    "module": "axe_cutter",
+    "replace": {
+        "overlay_texture_model": [
+            {
+                "texture": "miapi:item/tool/head/axe_cutter/axe_front",
+                "modelTargetType": "path",
+                "modelTargetInfo": "tool/head/axe_cutter",
+                "colorProvider": "material:rainbow_pride_3"
+            }
+        ]
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": ["pride","supporter"]
+    },
+    "texture": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}

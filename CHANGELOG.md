@@ -9,3 +9,4 @@
 - adjusted Twin Blade behaviour to have a have custom name and ItemID
 - added zh_cn localization
 - fixed negative axe dmg bug
+- added Pride Month Rainbow Cosmetics

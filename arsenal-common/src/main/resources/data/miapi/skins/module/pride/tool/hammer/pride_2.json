@@ -1,0 +1,23 @@
+{
+    "path": "pride/pride-hammer_2",
+    "module": "hammer",
+    "replace": {
+        "overlay_texture_model": [
+            {
+                "texture": "miapi:item/tool/head/hammer/hammer",
+                "modelTargetType": "path",
+                "modelTargetInfo": "tool/head/hammer",
+                "colorProvider": "material:rainbow_pride_2"
+            }
+        ]
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": ["pride","supporter"]
+    },
+    "texture": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}

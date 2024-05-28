@@ -1,0 +1,23 @@
+{
+    "path": "pride/pride-zweihaender_1",
+    "module": "blade_zweihaender",
+    "replace": {
+        "overlay_texture_model": [
+            {
+                "texture": "miapi:item/sword/blade/zweihaender/blade_zweihaender",
+                "modelTargetType": "path",
+                "modelTargetInfo": "blade",
+                "colorProvider": "material:rainbow_pride_1"
+            }
+        ]
+    },
+    "condition": {
+        "type": "miapi_perm",
+        "perms": ["pride","supporter"]
+    },
+    "texture": {
+        "color": "FFFFFF",
+        "scale": 0,
+        "borderSize": 0
+    }
+}
