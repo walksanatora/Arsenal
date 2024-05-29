@@ -20,6 +20,7 @@
             }
         }
     }],
+    "handheld_item":true,
     "displayName": "miapi.module.handheld_knuckles.name",
     "itemId": "miapi:modular_knuckles",
     "enchantments": {

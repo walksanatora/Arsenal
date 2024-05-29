@@ -20,6 +20,7 @@
             }
         }
     }],
+    "handheld_item":true,
     "displayName": "miapi.module.handheld_gauntlets.name",
     "itemId": "miapi:modular_gauntlets",
     "enchantments": {

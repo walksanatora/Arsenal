@@ -20,6 +20,7 @@
             }
         }
     }],
+    "handheld_item":true,
     "priority": 1,
     "repairPriority": 0,
     "materialProperty": [
