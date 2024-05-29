@@ -1,13 +1,15 @@
 {
-    "path": "pride/pride-hoe_front_2",
-    "module": "hoe_front",
+    "path": "pride/pride-tool_4",
+    "module_tags": [
+        "tool_head"
+    ],
     "replace": {
         "overlay_texture_model": [
             {
-                "texture": "miapi:item/tool/head/hoe_front/hoe_front",
+                "colorProvider": "material:rainbow_pride_4",
                 "modelTargetType": "path",
-                "modelTargetInfo": "tool/head/hoe_front/",
-                "colorProvider": "material:rainbow_pride_2"
+                "modelTargetInfo": "^(?!.*tool/handle/handle_tool).*",
+                "allowOtherModules": false
             }
         ]
     },

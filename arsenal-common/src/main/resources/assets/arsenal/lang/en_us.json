@@ -271,91 +271,15 @@
     "miapi.material.custom.nether_star": "Nether Star ",
     "miapi.material.custom.heart_of_the_sea": "Heart of the Sea ",
 
-    "miapi.skin.name.pride-axe_back_1": "Flowing Rainbow",
-    "miapi.skin.name.pride-axe_back_2": "Rainbow",
-    "miapi.skin.name.pride-axe_back_3": "Flowing Spectrum",
+    "miapi.skin.name.pride-blade_1": "Rainbow Reaver",
+    "miapi.skin.name.pride-blade_2": "Spectrum Slicer",
+    "miapi.skin.name.pride-blade_3": "Prismatic Sabre",
+    "miapi.skin.name.pride-blade_4": "Aurora Edge",
+    "miapi.skin.name.pride-blade_5": "Gleaming Pride Cutter",
 
-    "miapi.skin.name.pride-axe_cutter_1": "Sharp Spectrum",
-    "miapi.skin.name.pride-axe_cutter_2": "Colorful Blade",
-    "miapi.skin.name.pride-axe_cutter_3": "Spectrum Cutter",
-
-    "miapi.skin.name.pride-axe_front_1": "Radiant Edge",
-    "miapi.skin.name.pride-axe_front_2": "Rainbow Edge",
-    "miapi.skin.name.pride-axe_front_3": "Radiant Axe",
-
-    "miapi.skin.name.pride-axe_throwing_1": "Tossed Colors",
-    "miapi.skin.name.pride-axe_throwing_2": "Rainbow Throw",
-    "miapi.skin.name.pride-axe_throwing_3": "Throwing Spectrum",
-
-    "miapi.skin.name.pride-hammer_1": "Hammer of Pride",
-    "miapi.skin.name.pride-hammer_2": "Rainbow Hammer",
-    "miapi.skin.name.pride-hammer_3": "Pride Smash",
-
-    "miapi.skin.name.pride-hoe_front_1": "Rainbow Cultivator",
-    "miapi.skin.name.pride-hoe_front_2": "Colorful Hoe",
-    "miapi.skin.name.pride-hoe_front_3": "Cultivator of Pride",
-
-    "miapi.skin.name.pride-pickaxe_front_1": "Rainbow Miner",
-    "miapi.skin.name.pride-pickaxe_front_2": "Colorful Pick",
-    "miapi.skin.name.pride-pickaxe_front_3": "Miner of Pride",
-
-    "miapi.skin.name.pride-pickaxe_back_1": "Back Spectrum",
-    "miapi.skin.name.pride-pickaxe_back_2": "Miner of Pride",
-    "miapi.skin.name.pride-pickaxe_back_3": "Rainbow Pick",
-
-    "miapi.skin.name.pride-shovel_1": "Rainbow Digger",
-    "miapi.skin.name.pride-shovel_2": "Colorful Shovel",
-    "miapi.skin.name.pride-shovel_3": "Digger of Pride",
-
-    "miapi.skin.name.pride-tool_back_1": "Tool of Colors",
-    "miapi.skin.name.pride-tool_back_2": "Tool of Pride",
-    "miapi.skin.name.pride-tool_back_3": "Rainbow Tool",
-
-    "miapi.skin.name.pride-dagger_1": "Rainbow Dagger",
-    "miapi.skin.name.pride-dagger_2": "Prismatic Stabber",
-    "miapi.skin.name.pride-dagger_3": "Spectrum Slice",
-    
-    "miapi.skin.name.pride-greatsword_1": "Rainbow Greatsword",
-    "miapi.skin.name.pride-greatsword_2": "Prismatic Greatsword",
-    "miapi.skin.name.pride-greatsword_3": "Brilliant Greatsword",
-    
-    "miapi.skin.name.pride-katana_1": "Rainbow Katana",
-    "miapi.skin.name.pride-katana_2": "Prismatic Katana",
-    "miapi.skin.name.pride-katana_3": "Brilliant Katana",
-    
-    "miapi.skin.name.pride-longsword_1": "Rainbow Longsword",
-    "miapi.skin.name.pride-longsword_2": "Prismatic Longsword",
-    "miapi.skin.name.pride-longsword_3": "Radiant Longsword",
-    
-    "miapi.skin.name.pride-rapier_1": "Rainbow Rapier",
-    "miapi.skin.name.pride-rapier_2": "Prismatic Rapier",
-    "miapi.skin.name.pride-rapier_3": "Dazzling Rapier",
-    
-    "miapi.skin.name.pride-scythe_1": "Rainbow Scythe",
-    "miapi.skin.name.pride-scythe_2": "Prismatic Scythe",
-    "miapi.skin.name.pride-scythe_3": "Radiant Scythe",
-    
-    "miapi.skin.name.pride-sickle_1": "Rainbow Sickle",
-    "miapi.skin.name.pride-sickle_2": "Prismatic Sickle",
-    "miapi.skin.name.pride-sickle_3": "Colorful Sickle",
-    
-    "miapi.skin.name.pride-spear_1": "Rainbow Spear",
-    "miapi.skin.name.pride-spear_2": "Prismatic Spear",
-    "miapi.skin.name.pride-spear_3": "Radiant Spear",
-    
-    "miapi.skin.name.pride-sword_1": "Rainbow Sword",
-    "miapi.skin.name.pride-sword_2": "Prismatic Blade",
-    "miapi.skin.name.pride-sword_3": "Radiant Blade",
-    
-    "miapi.skin.name.pride-throwing_knife_1": "Rainbow Throwing Knife",
-    "miapi.skin.name.pride-throwing_knife_2": "Prismatic Throwing Knife",
-    "miapi.skin.name.pride-throwing_knife_3": "Dazzling Throwing Knife",
-    
-    "miapi.skin.name.pride-trident_1": "Rainbow Trident",
-    "miapi.skin.name.pride-trident_2": "Prismatic Trident",
-    "miapi.skin.name.pride-trident_3": "Radiant Trident",
-    
-    "miapi.skin.name.pride-zweihaender_1": "Rainbow Zweihaender",
-    "miapi.skin.name.pride-zweihaender_2": "Prismatic Zweihaender",
-    "miapi.skin.name.pride-zweihaender_3": "Dazzling Zweihaender"
+    "miapi.skin.name.pride-tool_1": "Radiant Multi-Tool",
+    "miapi.skin.name.pride-tool_2": "Prismatic Utility",
+    "miapi.skin.name.pride-tool_3": "Chromatic Crafter",
+    "miapi.skin.name.pride-tool_4": "Spectrum Smith",
+    "miapi.skin.name.pride-tool_5": "Aurora Artisan"
 }
