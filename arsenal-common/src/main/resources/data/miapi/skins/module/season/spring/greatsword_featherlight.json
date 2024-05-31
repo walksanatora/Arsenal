@@ -1,5 +1,5 @@
 {
-    "path": "spring/greatsword-featherlightw ",
+    "path": "spring/greatsword-featherlight",
     "module": "blade_greatsword",
     "replace": {
         "texture": {
@@ -11,8 +11,8 @@
                     "z": 0.0
                 },
                 "translation": {
-                    "x": 2.0,
-                    "y": 2.0,
+                    "x": -3.0,
+                    "y": -3.0,
                     "z": 0.01
                 },
                 "scale": {
