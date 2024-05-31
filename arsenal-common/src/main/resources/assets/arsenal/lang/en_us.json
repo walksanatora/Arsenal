@@ -14,6 +14,46 @@
     "miapi.skin.name.goldbrand": "",
     "miapi.skin.name.guard_katana": "Katana Guard",
     "miapi.skin.name.bident": "Bident",
+    "miapi.skin.name.universal_breaker_mindfaer": "Universal Breaker",
+
+
+    "miapi.skin.name.greatsword-worldtrees_wrath": "Worldtree's Wrath",
+    "miapi.skin.name.longsword-falling_cherry": "Falling Cherry",
+    "miapi.skin.name.rapier-splinter": "Splinter",
+    "miapi.skin.name.sword-splinteredblade": "Splintered Blade",
+    "miapi.skin.name.zweihaender-branchblade": "Branchblade",
+    "miapi.skin.name.zweihaender-stalagmite": "Stalagmite",
+
+
+    "miapi.skin.name.greatsword-cake_knife": "Cake Knife",
+    "miapi.skin.name.longsword-trumpeting": "Trumpeting",
+    "miapi.skin.name.sword-ying_yang": "Ying Yang",
+
+
+    "miapi.skin.name.greatsword-featherlight": "Featherlight",
+    "miapi.skin.name.greatsword-trunk": "Trunk",
+    "miapi.skin.name.katana-dawnbreaker": "Dawnbreaker",
+    "miapi.skin.name.katana-leafblade": "Leafblade",
+    "miapi.skin.name.rapier-thorns": "Thorns",
+    "miapi.skin.name.sword-green_assault": "Green Assault",
+
+
+    "miapi.skin.name.greatsword-ice_cream": "Ice Cream",
+    "miapi.skin.name.greatsword-nightslayer": "Nightslayer",
+    "miapi.skin.name.katana-suns_fury": "Sun's Fury",
+    "miapi.skin.name.katana-water_katana": "Water Katana",
+    "miapi.skin.name.longsword-suns_embrace": "Sun's Embrace",
+    "miapi.skin.name.scythe-water_blade": "Water Blade",
+    "miapi.skin.name.sickle-water_blade": "Water Blade",
+    "miapi.skin.name.sword-flamming_snake": "Flamming Snake",
+
+
+    "miapi.skin.name.dagger-cold_embrace": "Cold Embrace",
+    "miapi.skin.name.greatsword-snowflake_blade": "Snowflake Blade",
+    "miapi.skin.name.longsword-iceslicer": "Ice Slicer",
+    "miapi.skin.name.rapier-flaming_ice": "Flaming Ice",
+    "miapi.skin.name.sword-frostblade": "Frostblade",
+    "miapi.skin.name.zweihaender-cold_death": "Cold Death",
 
     "miapi.crafting_condition.cant_change_parent": "cannot Change Parent of Module",
     "miapi.crafting_condition.require_obsidian_socket": "Requires Obsidian Socket",
@@ -276,6 +316,12 @@
     "miapi.skin.name.pride-blade_3": "Prismatic Sabre",
     "miapi.skin.name.pride-blade_4": "Aurora Edge",
     "miapi.skin.name.pride-blade_5": "Gleaming Pride Cutter",
+
+    "miapi.skin.name.pride-handheld_1": "Chromatic Fist",
+    "miapi.skin.name.pride-handheld_2": "Spectrum Strike",
+    "miapi.skin.name.pride-handheld_3": "Prismatic Punch",
+    "miapi.skin.name.pride-handheld_4": "Radiant Grasp",
+    "miapi.skin.name.pride-handheld_5": "Aurora Clasp",
 
     "miapi.skin.name.pride-tool_1": "Radiant Multi-Tool",
     "miapi.skin.name.pride-tool_2": "Prismatic Utility",

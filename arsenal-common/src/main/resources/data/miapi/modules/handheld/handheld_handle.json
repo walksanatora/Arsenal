@@ -31,7 +31,8 @@
         "melee"
     ],
     "tag": [
-        "normal_handle"
+        "normal_handle",
+        "handheld_handle"
     ],
     "enchantments": {
         "allowed": [

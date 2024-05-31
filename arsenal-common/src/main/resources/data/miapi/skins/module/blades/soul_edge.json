@@ -56,6 +56,9 @@
             "buster"
         ]
     },
+    "hover": {
+        "text": "By RPGLordLight(ddd3)"
+    },
     "texture": {
         "color": "FFFFFF",
         "scale": 0,

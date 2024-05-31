@@ -53,6 +53,9 @@
         "type": "advancement",
         "advancement": "minecraft:story/enter_the_nether"
     },
+    "hover": {
+        "text": "By RPGLordLight(ddd3)"
+    },
     "texture": {
         "color": "FFFFFF",
         "scale": 0,

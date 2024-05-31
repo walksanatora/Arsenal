@@ -30,7 +30,8 @@
         ]
     },
     "tag": [
-        "blade_short"
+        "blade_short",
+        "handheld"
     ],
     "priority": 0,
     "repairPriority": -1,
