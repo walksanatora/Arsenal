@@ -10,3 +10,4 @@
 - added zh_cn localization
 - fixed negative axe dmg bug
 - added Pride Month Rainbow Cosmetics
+- added seasonal cosmetics
