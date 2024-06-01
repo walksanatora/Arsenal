@@ -37,8 +37,6 @@ dependencies {
     modApi "dev.architectury:architectury:${rootProject.architectury_version}"
 
     modApi("com.Truly-Modular.Modular-Item-API:Truly-Modular-miapi-common:${rootProject.miapi_version}-${rootProject.minecraft_version}")
-
-    implementation('org.mariuszgromada.math:MathParser.org-mXparser:4.4.2')
 }
 
 architectury {
