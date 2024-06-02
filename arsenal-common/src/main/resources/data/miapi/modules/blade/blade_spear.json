@@ -53,6 +53,11 @@
         ],
         "cost": 1
     },
+    "tag": [
+        "blade",
+        "polearm_spear",
+        "spear"
+    ],
     "attributes": [
         {
             "attribute": "generic.attack_speed",

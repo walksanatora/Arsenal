@@ -80,6 +80,7 @@
     "miapi.create_item.sword": "Sword",
     "miapi.create_item.polearm": "Polearm",
     "miapi.create_item.tool": "Tool",
+    "miapi.create_item.handheld": "Handheld",
 
     "miapi.slot.tool_head.name": "Empty Tool Head Slot",
     "miapi.slot.tool_back.name": "Empty Tool Back Slot",
