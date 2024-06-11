@@ -306,6 +306,8 @@
     "miapi.module.arsenal_nether_star_medium_gem_generic.description": "With the power of a Slain Wither you can Channel its hatred to slay one specific Target",
     "miapi.module.arsenal_ender_pearl_medium_gem": "Ender Pearl",
     "miapi.module.arsenal_ender_pearl_medium_gem.description": "Using the Power of the Enderpearl using Spatial Interdiction to block Teleporting",
+    "miapi.module.arsenal_ender_eye_medium_gem": "Ender Eye",
+    "miapi.module.arsenal_ender_eye_medium_gem.description": "Using the Ender Eye you can track your opponents for a short bit",
     "miapi.module.arsenal_conduit_medium_gem_generic": "Conduit",
     "miapi.module.arsenal_conduit_medium_gem_generic.description": "Harnessing the power of a Conduit in a Item",
 

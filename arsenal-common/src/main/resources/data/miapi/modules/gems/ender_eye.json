@@ -6,7 +6,7 @@
             "rotation": {"x": 0.0, "y": 0.0, "z": 0.0}, "translation": {"x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}
         }
     },
-    "allowedInSlots": ["gem_melee_small"],
+    "allowedInSlots": ["gem_melee_medium"],
     "materialProperty": [
         "default",
         "gem_melee_handheld",
@@ -25,7 +25,7 @@
         {
             "potion": "minecraft:glowing",
             "amplifier": "0",
-            "duration": "30+[module.gem_power]*40",
+            "duration": "70+[module.gem_power]*40",
             "target_self": false
         }
     ],
