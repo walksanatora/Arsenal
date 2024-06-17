@@ -97,7 +97,7 @@
                 "translate": "miapi.ability.area_harvest_ability.title"
             },
             "description": {
-                "translate": "miapi.ability.area_harvest_ability.header"
+                "translate": "miapi.ability.area_harvest_ability.description"
             }
         }
     },
