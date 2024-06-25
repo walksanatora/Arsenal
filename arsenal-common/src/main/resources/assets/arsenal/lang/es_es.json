@@ -1,0 +1,353 @@
+{
+    "miapi.skin.name.star_wars": "",
+    "miapi.skin.name.buster": "Espada Mortal",
+    "miapi.skin.name.old_greatsword": "Espadón Antiguo",
+    "miapi.skin.name.dragon_slayer": "Matadragones",
+    "miapi.skin.name.masamune": "Masamune",
+    "miapi.skin.name.soul_slayer":"Soul Edge",
+    "miapi.skin.name.gladius": "Gladius",
+    "miapi.skin.name.master": "Espada Maestra",
+    "miapi.skin.name.uzui": "Demon Slayer",
+    "miapi.skin.name.omens": "Espada del Augurio",
+    "miapi.skin.name.key_blade": "Llave Espada",
+    "miapi.skin.name.skyrim": "",
+    "miapi.skin.name.goldbrand": "",
+    "miapi.skin.name.guard_katana": "Guardamanos de Katana",
+    "miapi.skin.name.bident": "Bidente",
+    "miapi.skin.name.universal_breaker_mindfaer": "Universal Breaker",
+    "miapi.skin.name.katana_sketano": "Sketano's Breaker",
+
+
+    "miapi.skin.name.greatsword-worldtrees_wrath": "Worldtree's Wrath",
+    "miapi.skin.name.longsword-falling_cherry": "Falling Cherry",
+    "miapi.skin.name.rapier-splinter": "Splinter",
+    "miapi.skin.name.sword-splinteredblade": "Splintered Blade",
+    "miapi.skin.name.zweihaender-branchblade": "Branchblade",
+    "miapi.skin.name.zweihaender-stalagmite": "Stalagmite",
+
+
+    "miapi.skin.name.greatsword-cake_knife": "Cake Knife",
+    "miapi.skin.name.longsword-trumpeting": "Trumpeting",
+    "miapi.skin.name.sword-ying_yang": "Ying Yang",
+
+
+    "miapi.skin.name.greatsword-featherlight": "Featherlight",
+    "miapi.skin.name.greatsword-trunk": "Trunk",
+    "miapi.skin.name.katana-dawnbreaker": "Dawnbreaker",
+    "miapi.skin.name.katana-leafblade": "Leafblade",
+    "miapi.skin.name.rapier-thorns": "Thorns",
+    "miapi.skin.name.sword-green_assault": "Green Assault",
+
+
+    "miapi.skin.name.greatsword-ice_cream": "Ice Cream",
+    "miapi.skin.name.greatsword-nightslayer": "Nightslayer",
+    "miapi.skin.name.katana-suns_fury": "Sun's Fury",
+    "miapi.skin.name.katana-water_katana": "Water Katana",
+    "miapi.skin.name.longsword-suns_embrace": "Sun's Embrace",
+    "miapi.skin.name.scythe-water_blade": "Water Blade",
+    "miapi.skin.name.sickle-water_blade": "Water Blade",
+    "miapi.skin.name.sword-flamming_snake": "Flamming Snake",
+
+
+    "miapi.skin.name.dagger-cold_embrace": "Cold Embrace",
+    "miapi.skin.name.greatsword-snowflake_blade": "Snowflake Blade",
+    "miapi.skin.name.longsword-iceslicer": "Ice Slicer",
+    "miapi.skin.name.rapier-flaming_ice": "Flaming Ice",
+    "miapi.skin.name.sword-frostblade": "Frostblade",
+    "miapi.skin.name.zweihaender-cold_death": "Cold Death",
+
+    "miapi.crafting_condition.cant_change_parent": "No puede cambiarse el Modulo superior",
+    "miapi.crafting_condition.require_obsidian_socket": "Requiere Receptáculo de Obsidiana",
+    "miapi.crafting_condition.require_prismarine_socket": "Requiere Receptáculo de Prismarina",
+
+    "miapi.material_group.gem_melee": "Gema",
+
+    "miapi.arsenal.gemstone_melee.strength_on_hit": "Fortalecedor",
+    "miapi.arsenal.gemstone_melee.strength_on_hit.description": "Aplica Fuerza al usuario cuando golpea a una Entidad",
+    "miapi.arsenal.gemstone_melee.unstable": "Inestable",
+    "miapi.arsenal.gemstone_melee.unstable.description": "Al matar una entidad con esta arma, esta explotará",
+    "miapi.arsenal.gemstone_melee.teleport_block": "Prohibición Espacial",
+    "miapi.arsenal.gemstone_melee.teleport_block.description": "Los objetivos no se pueden teletransportar",
+    "miapi.arsenal.gemstone_melee.radiant": "Veneno Radiante",
+    "miapi.arsenal.gemstone_melee.radiant.description": "Aplica Veneno y Luminiscencia al objetivo",
+    "miapi.arsenal.gemstone_melee.armoring": "Blindaje",
+    "miapi.arsenal.gemstone_melee.armoring.description": "Aplica Resistencia al usuario cuando golpea a una Entidad",
+    "miapi.arsenal.gemstone_melee.lucky": "Suertudo!",
+    "miapi.arsenal.gemstone_melee.lucky.description": "Aplica Suerte al usuario cuando golpea a una Entidad",
+    "miapi.arsenal.gemstone_melee.quickening": "Acelerado!",
+    "miapi.arsenal.gemstone_melee.quickening.description": "Aplica Velocidad al usuario cuando golpea a una entidad",
+
+    "miapi.create_item.sword": "Espada",
+    "miapi.create_item.polearm": "Asta",
+    "miapi.create_item.tool": "Herramienta",
+    "miapi.create.item.handheld": "De Mano",
+
+    "miapi.slot.tool_head.name": "Ranura de Cabeza Vacía",
+    "miapi.slot.tool_back.name": "Ranura de Contrafilo Vacía",
+    "miapi.slot.sword_blade.name": "Ranura de Hoja Vacía",
+    "miapi.slot.pommel.name" : "Ranura de Pomo Vacía",
+    "miapi.slot.guard.name" : "Ranura de Guarda Vacía",
+    "miapi.slot.gem.name" : "Receptáculo Vacío",
+
+    "miapi.module.handheld_gauntlets": "Guanteletes",
+    "miapi.module.handheld_gauntlets.name": "Guanteletes de [translation.[material.translation]]",
+    "miapi.module.handheld_gauntlets.description": "Los Guanteletes son una excelente protección para tus manos al golpear algo.",
+
+    "miapi.module.handle_handheld": "Empuñadura de Mano",
+    "miapi.module.handle_handheld.name": "Empuñadura de [translation.[material.translation]]",
+    "miapi.module.handle_handheld.description": "Una Empuñadura para armas pequeñas que llevar en una sola mano.",
+
+    "miapi.module.handheld_katar": "Katar",
+    "miapi.module.handheld_katar.name": "Katar de [translation.[material.translation]]",
+    "miapi.module.handheld_katar.description": "Una Daga Pequeña diseñada para combate ágil a corta distancia.",
+
+    "miapi.module.handheld_knuckles": "Nudillos",
+    "miapi.module.handheld_knuckles.name": "Nudillos de [translation.[material.translation]]",
+    "miapi.module.handheld_knuckles.description": "Nudillos, rompiendo caras desde tiempos immemorables.",
+
+    "miapi.module.handheld_tonfa": "Tonfa",
+    "miapi.module.handheld_tonfa.name": "Tonfa de [translation.[material.translation]]",
+    "miapi.module.handheld_tonfa.description": "Una Tonfa, excelente para inmovilizar enemigos.",
+
+
+    "miapi.ability.heavy_attack.title": "Ataque Fuerte",
+    "miapi.ability.heavy_attack.description": "Click Derecho para un Ataque Pesado\nHace %s veces el daño, con %s bloques de Alcance\nEl Click Derecho debe mantenerse por %s segundos",
+    "miapi.ability.heavy_attack.lore": "Cick Derecho para un Ataque Cargado",
+    "miapi.ability.block.lore": "Click Derecho para Bloquear",
+    "miapi.ability.throw.lore": "Lanzable",
+
+    "miapi.module.blade_dagger": "Hoja de Daga",
+    "miapi.module.blade_dagger.name": "Daga de [translation.[material.translation]]",
+    "miapi.module.blade_dagger.description": "Una hoja de daga común, usada por sabandijas y ladrones.",
+
+    "miapi.module.blade_greatsword": "Hoja de Espadón",
+    "miapi.module.blade_greatsword.name": "Espadón de [translation.[material.translation]]",
+    "miapi.module.blade_greatsword.description": "Una espada colosal diseñada para golpes pesados.",
+
+    "miapi.module.blade_zweihaender": "Hoja de Zweihänder",
+    "miapi.module.blade_zweihaender.name": "Zweihänder de [translation.[material.translation]]",
+    "miapi.module.blade_zweihaender.description": "Una Hoja medieval de origen alemán, excelente para desviar ataques y penetrar armaduras",
+
+    "miapi.module.blade_katana": "Hoja de Katana",
+    "miapi.module.blade_katana.name": "Katana de [translation.[material.translation]]",
+    "miapi.module.blade_katana.description": "Una espada tradicional japonesa conocida por su filo y su precisión. No es buena contra armaduras.",
+
+    "miapi.module.blade_longsword": "Hoja de Espada Larga",
+    "miapi.module.blade_longsword.name": "Espada Larga de [translation.[material.translation]]",
+    "miapi.module.blade_longsword.description": "Una hoja versátil que da balance entre alcance, velocidad y poder.",
+
+    "miapi.module.blade_rapier": "Hoja de Estoque",
+    "miapi.module.blade_rapier.name": "Estoque de [translation.[material.translation]]",
+    "miapi.module.blade_rapier.description": "Una hoja delgada y ligera, sus rápidos golpes penetran armaduras.",
+
+    "miapi.module.blade_sword": "Hoja de Espada",
+    "miapi.module.blade_sword.name": "[translation.[material.translation]]Sword",
+    "miapi.module.blade_sword.description": "Una espada clásica y versátil usada por guerreros de diferentes culturas.",
+
+    "miapi.module.blade_throwing_knife": "Hoja de Cuchillo para Lanzar",
+    "miapi.module.blade_throwing_knife.name": "Cuchillo para Lanzar de [translation.[material.translation]]",
+    "miapi.module.blade_throwing_knife.description": "Un cuchillo ligero diseñado para lanzar con precisión.",
+
+    "miapi.module.blade_sickle": "Hoja de Hoz",
+    "miapi.module.blade_sickle.name": "Hoz de [translation.[material.translation]]",
+    "miapi.module.blade_sickle.description": "Una pequeña cabeza de Hoz. Quizás haya cierto simbolismo...",
+
+    "miapi.module.blade_scythe": "Hoja de Guadaña",
+    "miapi.module.blade_scythe.name": "Guadaña de [translation.[material.translation]]",
+    "miapi.module.blade_scythe.description": "Una larga cabeza de Guadaña. Usada para cortar hierbas, cultivos, personas, etc.",
+
+    "miapi.module.tool_adapter": "Adaptador de Herramienta",
+    "miapi.module.tool_adapter.description": "Un adaptador que permite poner herramientas sobre la empuñadura",
+
+    "miapi.module.guard_blocking": "Guardamanos Grande",
+    "miapi.module.guard_blocking.name": "Guardamanos Grande de [translation.[material.translation]]",
+    "miapi.module.guard_blocking.description": "Guardamanos diseñado con el propósito de bloquear.",
+
+
+    "miapi.module.guard_katana": "Tsuba",
+    "miapi.module.guard_katana.name": "Tsuba de [translation.[material.translation]]",
+    "miapi.module.guard_katana.description": "Un guardamanos diseñado para ser usado con una Katana.",
+
+    "miapi.module.guard_normal": "Guardamanos",
+    "miapi.module.guard_normal.name": "Guardamanos de [translation.[material.translation]]",
+    "miapi.module.guard_normal.description": "Guardamanos de uso común para la mayoría de espadas.\nTiene durabilidad incrementada.",
+
+    "miapi.module.guard_slim": "Guardamanos Delgado",
+    "miapi.module.guard_slim.name": "Guardamanos Delgado de [translation.[material.translation]]",
+    "miapi.module.guard_slim.description": "Guardamanos ligero y simple, permite golpes más rápidos.",
+
+    "miapi.module.guard_socket": "Guardamanos con Receptáculo",
+    "miapi.module.guard_socket.name": "Receptáculo de [translation.[material.translation]]",
+    "miapi.module.guard_socket.description": "Un guardamanos con un espacio para encajar Gemas Mágicas o Artefactos.",
+
+    "miapi.module.guard_dual_socket": "Guardamanos con Receptáculo Doble",
+    "miapi.module.guard_dual_socket.name": "Receptáculo Doble de [translation.[material.translation]]",
+    "miapi.module.guard_dual_socket.description": "Guardamanos con espacio para dos Gemas Mágicas o Artefactos.",
+
+    "miapi.module.guard_winged": "Guardamanos Alado",
+    "miapi.module.guard_winged.name": "Guardamanos Alado de [translation.[material.translation]]",
+    "miapi.module.guard_winged.description": "Guardamanos con alas decorativas. Tiene buen aspecto y balance.",
+
+
+    "miapi.module.pommel_socket": "Pomo con Receptáculo",
+    "miapi.module.pommel_socket.name": "Pomo con Receptáculo de [translation.[material.translation]]",
+    "miapi.module.pommel_socket.description": "Un pomo con un pequeño espacio para una Gema Mágica o Artefacto.",
+
+    "miapi.module.pommel_cross": "Pomo de Cruz",
+    "miapi.module.pommel_cross.name": "Pomo de Cruz de [translation.[material.translation]]",
+    "miapi.module.pommel_cross.description": "Un pomo con diseño de cruz que permite un mejor agarre.",
+
+    "miapi.module.pommel_round": "Pomo Redondeado",
+    "miapi.module.pommel_round.name": "Pomo Redondeado de [translation.[material.translation]]",
+    "miapi.module.pommel_round.description": "Un pomo esférico que permite un agarre cómodo y una distribución de peso balanceada.",
+
+    "miapi.module.pommel_spike": "Pomo Puntiagudo",
+    "miapi.module.pommel_spike.name": "Pomo Puntiagudo de [translation.[material.translation]]",
+    "miapi.module.pommel_spike.description": "Un promo con una protuberancia afilada, aumenta la capacidad de penetración.",
+
+    "miapi.module.handle_polearm": "Empuñadura de Asta",
+    "miapi.module.handle_polearm.name": "Empuñadura de Asta de [translation.[material.translation]]",
+    "miapi.module.handle_polearm.description": "Una empuñadura larga para armas de asta, da mayor alcance.",
+
+    "miapi.module.handle_tool": "Mango",
+    "miapi.module.handle_tool.name": "Mango de [translation.[material.translation]]",
+    "miapi.module.handle_tool.description": "Un empuñadura rígida, funcional y duradera para armas y herramientas.",
+
+    "miapi.module.handle_long": "Empuñadura Larga",
+    "miapi.module.handle_long.name": "Empuñadura Larga de [translation.[material.translation]]",
+    "miapi.module.handle_long.description": "Una empuñadura larga para espadas usadas a dos manos. Provee alcance y equilibrio",
+
+    "miapi.module.handle_normal": "Empuñadura Normal",
+    "miapi.module.handle_normal.name": "Empuñadura de [translation.[material.translation]]",
+    "miapi.module.handle_normal.description": "Una empuñadura estándar para la mayoría de espadas.",
+
+    "miapi.module.handle_short": "Empuñadura Corta",
+    "miapi.module.handle_short.name": "Empuñadura Cota de [translation.[material.translation]]",
+    "miapi.module.handle_short.description": "Una empuñadura apropiada para espadas a una mano. Provee maniobrabilidad superior.",
+
+    "miapi.module.twin_blade.name": "Hoja Gemela de [translation.[material.translation]]",
+    "miapi.module.handle_twin": "Empuñadura Gemela",
+    "miapi.module.handle_twin.name": "Empuñadura Gemela de [translation.[material.translation]]",
+    "miapi.module.handle_twin.description": "Una empuñadura poco práctica que permite 2 hojas en la misma.\n No se ve nada mal.",
+
+    "miapi.module.axe_throwing": "Cabeza de Hacha Lanzable",
+    "miapi.module.axe_throwing.name": "Hacha Lanzable de [translation.[material.translation]]",
+    "miapi.module.axe_throwing.description": "Un hacha hecha para ser lanzada, puede ser usada como un arma cuerpo a cuerpo.",
+
+    "miapi.module.axe_front": "Hoja de Hacha",
+    "miapi.module.axe_front.name": "Hacha de [translation.[material.translation]]",
+    "miapi.module.axe_front.description": "Parte frontal de un hacha, usada para cortar y decapar madera. Puede ser usada para el combate.",
+
+    "miapi.module.hammer": "Cabeza de Martillo",
+    "miapi.module.hammer.name": "Martillo de [translation.[material.translation]]",
+    "miapi.module.hammer.description": "Un martillo masivo, puede minar áreas de 3x3 bloques.",
+
+    "miapi.module.axe_cutter": "Hacha de Leñador",
+    "miapi.module.axe_cutter.name": "Hacha de Leñador de [translation.[material.translation]]",
+    "miapi.module.axe_cutter.description": "El hacha de un leñador, derriba árboles con facilidad.",
+
+    "miapi.module.axe_back": "Contrafilo de Hacha",
+    "miapi.module.axe_back.name": "Hacha de [translation.[material.translation]]",
+    "miapi.module.axe_back.description": "Parte trasera de un hacha, usada para cortar y decapar madera. Puede ser usada para el combate.",
+
+    "miapi.module.pickaxe_front": "Cabeza de Pico",
+    "miapi.module.pickaxe_front.name": "Pico de [translation.[material.translation]]",
+    "miapi.module.pickaxe_front.description": "Parte frontal de un pico, usada para romper y minar bloques.",
+
+    "miapi.module.pickaxe_back": "Cabeza de Pico",
+    "miapi.module.pickaxe_back.name": "Pico de [translation.[material.translation]]",
+    "miapi.module.pickaxe_back.description": "Parte trasera de un pico, utilizada para hacer palanca y picar.",
+
+    "miapi.module.shovel": "Plancha de Pala",
+    "miapi.module.shovel.name": "Pala de [translation.[material.translation]]",
+    "miapi.module.shovel.description": "Herramienta con una hoja ancha para cavar con facilidad.",
+
+    "miapi.module.tool_back": "Contrafilo de Herramienta",
+    "miapi.module.tool_back.name": "Contrafilo de Herramienta de [translation.[material.translation]]",
+    "miapi.module.tool_back.description": "Parte trasera de una herramienta, sirve para balancear el peso de su cabeza.",
+
+    "miapi.module.hoe_front": "Cabeza de Azada",
+    "miapi.module.hoe_front.name": "Azada de [translation.[material.translation]]",
+    "miapi.module.hoe_front.description": "Parte frontal de una azada, se usa para arar la tierra.",
+
+    "miapi.module.blade_spear": "Cabeza de Lanza",
+    "miapi.module.blade_spear.name": "Lanza de [translation.[material.translation]]",
+    "miapi.module.blade_spear.description": "Parte frontal de una lanza, utilizada para apuñalar.",
+
+    "miapi.module.blade_trident": "Cabeza de Tridente",
+    "miapi.module.blade_trident.name": "Tridente de [translation.[material.translation]]",
+    "miapi.module.blade_trident.description": "Cabeza de un tridente, a veces es llamada tenedor.",
+
+    "miapi.module.mattock.name": "Piqueta de [translation.[material.translation]]",
+    "miapi.module.blade_naginata.name": "Naginata de [translation.[material.translation]]",
+
+    "miapi.module.arsenal_large_gem_generic": "Gema Mayor",
+    "miapi.module.arsenal_large_gem_generic.name": "Gema Mayor [translation.[material.translation]]",
+    "miapi.module.arsenal_large_gem_generic.description": "Una Gema Mágica grande",
+
+    "miapi.module.arsenal_medium_gem_generic": "Gema Mediana",
+    "miapi.module.arsenal_medium_gem_generic.name": "Gema Mediana [translation.[material.translation]]",
+    "miapi.module.arsenal_medium_gem_generic.description": "Una Gema Mágica.",
+
+    "miapi.module.arsenal_small_gem_generic": "Gema Menor",
+    "miapi.module.arsenal_small_gem_generic.name": "Gema Pequeña [translation.[material.translation]]",
+    "miapi.module.arsenal_small_gem_generic.description": "Una Gema Mágica pequeña.",
+
+    "miapi.arsenal.tree_mining": "Leñador",
+    "miapi.arsenal.tree_mining.description": "Cantidad de troncos cortados a la vez",
+    "miapi.arsenal.compat.ht_treechop": "Leñador",
+    "miapi.arsenal.compat.ht_treechop.description": "Cantidad de cortes hechos al golpear un árbol",
+
+    "miapi.module.arsenal_end_crystal_medium_gem_generic": "Cristal del End",
+    "miapi.module.arsenal_end_crystal_medium_gem_generic.description": "Cristal altamente inestable canalizado para hacer explotar enemigos.",
+    "miapi.module.arsenal_heart_of_the_sea_medium_gem_generic": "Corazón del Mar",
+    "miapi.module.arsenal_heart_of_the_sea_medium_gem_generic.description": "Canaliza el Poder del Corazón del Mar.",
+    "miapi.module.arsenal_nether_star_medium_gem_generic": "Estrella del Nether",
+    "miapi.module.arsenal_nether_star_medium_gem_generic.description": "Canaliza el odio del Wither para aumentar tu fuerza al enfrentar a un objetivo en específico.",
+    "miapi.module.arsenal_ender_pearl_medium_gem": "Perla de ender",
+    "miapi.module.arsenal_ender_pearl_medium_gem.description": "Usando el poder de la Perla de Ender, causa Prohibición Espacial para evitar teletransportes.",
+    "miapi.module.arsenal_ender_eye_medium_gem": "Ojo de ender",
+    "miapi.module.arsenal_ender_eye_medium_gem.description": "Usando el Ojo de Ender puedes Rastrear a tu enemigo temporalmente.",
+    "miapi.module.arsenal_conduit_medium_gem_generic": "Canalizador",
+    "miapi.module.arsenal_conduit_medium_gem_generic.description": "Manipula el poder de un Canalizador",
+
+    "miapi.material.custom.end_crystal": "Cristal del End ",
+    "miapi.material.custom.nether_star": "Estrella del Nether ",
+    "miapi.material.custom.heart_of_the_sea": "Corazón del Mar ",
+
+    "miapi.skin.name.pride-blade_1": "Rainbow Reaver",
+    "miapi.skin.name.pride-blade_2": "Spectrum Slicer",
+    "miapi.skin.name.pride-blade_3": "Prismatic Sabre",
+    "miapi.skin.name.pride-blade_4": "Aurora Edge",
+    "miapi.skin.name.pride-blade_5": "Gleaming Pride Cutter",
+    "miapi.skin.name.pride-blade_ace": "Acestrike Blade",
+    "miapi.skin.name.pride-blade_bi": "Bi-Blade",
+    "miapi.skin.name.pride-blade_gay": "Gay Gladius",
+    "miapi.skin.name.pride-blade_lesbian": "Lesbian Lacerator",
+    "miapi.skin.name.pride-blade_nb": "Non-Binary Blade",
+    "miapi.skin.name.pride-blade_trans": "Transcendent Sabre",
+
+    "miapi.skin.name.pride-handheld_1": "Chromatic Fist",
+    "miapi.skin.name.pride-handheld_2": "Spectrum Strike",
+    "miapi.skin.name.pride-handheld_3": "Prismatic Punch",
+    "miapi.skin.name.pride-handheld_4": "Radiant Grasp",
+    "miapi.skin.name.pride-handheld_5": "Aurora Clasp",
+    "miapi.skin.name.pride-handheld_ace": "Ace Punch",
+    "miapi.skin.name.pride-handheld_bi": "Bi Strike",
+    "miapi.skin.name.pride-handheld_gay": "Gay Gauntlet",
+    "miapi.skin.name.pride-handheld_lesbian": "Lesbian Tonfa",
+    "miapi.skin.name.pride-handheld_nb": "Non-Binary Knuckles",
+    "miapi.skin.name.pride-handheld_trans": "Trans Power",
+
+    "miapi.skin.name.pride-tool_1": "Radiant Multi-Tool",
+    "miapi.skin.name.pride-tool_2": "Prismatic Utility",
+    "miapi.skin.name.pride-tool_3": "Chromatic Crafter",
+    "miapi.skin.name.pride-tool_4": "Spectrum Smith",
+    "miapi.skin.name.pride-tool_5": "Aurora Artisan",
+    "miapi.skin.name.pride-tool_ace": "Ace Tool",
+    "miapi.skin.name.pride-tool_bi": "Bi-Utility",
+    "miapi.skin.name.pride-tool_gay": "Gay Gadget",
+    "miapi.skin.name.pride-tool_lesbian": "Lesbian Artisan",
+    "miapi.skin.name.pride-tool_nb": "Non-Binary Smith",
+    "miapi.skin.name.pride-tool_trans": "Trans Artisan"
+}
