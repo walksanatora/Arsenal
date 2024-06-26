@@ -1,13 +1,2 @@
-## v1.8 (1.20.1)
-- de-cluttered by introducing a Tool-Adapter module to separate tool and Blade Modules
-- fixed hammer to have Pickaxe Break level instead of Axe Breaking level
-- changed Heart of the Sea to Conduit material instead and gave it custom Conduit renderer
-- changed Nether-Star to use Nemesis Property
-- added range to amethyst
-- changed Quartz to a small amount of Critical Damage
-- added handheld item (knuckles, tonfa, katar and gloves)
-- adjusted Twin Blade behaviour to have a have custom name and ItemID
-- added zh_cn localization
-- fixed negative axe dmg bug
-- added Pride Month Rainbow Cosmetics
-- added seasonal cosmetics
+## v1.9 (1.20.1)
+- added missing translations
