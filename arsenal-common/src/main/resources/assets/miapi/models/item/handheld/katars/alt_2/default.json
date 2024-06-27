@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "miapi:item/handheld/katar/katar"
+    "layer0": "miapi:item/handheld/katar/katar_alt_2"
   }
 }
