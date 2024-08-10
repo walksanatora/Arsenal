@@ -56,7 +56,7 @@
                 "type": "staggered",
                 "speed": 4
             },
-            " ": {
+            "shape": {
                 "type": "cube",
                 "width": 3,
                 "height": 3,
