@@ -64,6 +64,9 @@
             }
         }
     ],
+    "module_stats": {
+        "blade_size": 0.7
+    },
     "priority": 3,
     "repairPriority": -1,
     "materialProperty": [

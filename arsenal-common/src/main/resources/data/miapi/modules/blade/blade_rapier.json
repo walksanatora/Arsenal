@@ -20,6 +20,9 @@
             }
         }
     },
+    "module_stats": {
+        "blade_size": 1
+    },
     "priority": 3,
     "repairPriority": -1,
     "materialProperty": [
@@ -73,7 +76,7 @@
         }
     ],
     "durability": "[material.durability]* 0.2",
-    "armor_pen": "[material.hardness]*2.0 + 20",
+    "armor_pen": "([material.hardness]*2.0 + 20)/ [collect.add.module.blade_size]",
     "displayName": "miapi.module.blade_rapier.name",
     "itemId": "miapi:modular_rapier"
 }

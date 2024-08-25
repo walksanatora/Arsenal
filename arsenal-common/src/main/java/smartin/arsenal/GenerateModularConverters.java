@@ -6,7 +6,6 @@ import smartin.miapi.datapack.ReloadEvents;
 import smartin.miapi.events.MiapiEvents;
 import smartin.miapi.item.ModularItemStackConverter;
 import smartin.miapi.modules.ItemModule;
-import smartin.miapi.modules.material.GeneratedMaterial;
 import smartin.miapi.modules.material.Material;
 import smartin.miapi.modules.properties.ItemIdProperty;
 import smartin.miapi.registries.RegistryInventory;
@@ -29,7 +28,7 @@ public class GenerateModularConverters {
             }
             return stack;
         });
-        MiapiEvents.GENERATED_MATERIAL.register((GeneratedMaterial material, ItemStack mainIngredient, List<Item> tools, boolean isClient) -> {
+        MiapiEvents.GENERATE_MATERIAL_CONVERTERS.register((Material material, List<Item> tools, boolean isClient) -> {
             Optional<Item> swordItem = tools.stream().filter(SwordItem.class::isInstance).findFirst();
             Optional<Item> axeItem = tools.stream().filter(AxeItem.class::isInstance).findFirst();
             Optional<Item> pickAxeItem = tools.stream().filter(PickaxeItem.class::isInstance).findFirst();

@@ -20,6 +20,9 @@
             }
         }
     },
+    "module_stats": {
+        "blade_size": 1.2
+    },
     "priority": 4,
     "materialProperty": [
         "default",

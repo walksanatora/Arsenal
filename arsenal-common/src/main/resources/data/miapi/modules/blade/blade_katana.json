@@ -20,6 +20,9 @@
             }
         }
     },
+    "module_stats": {
+        "blade_size": 1
+    },
     "priority": 2,
     "materialProperty": [
         "default",
@@ -67,7 +70,7 @@
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "[material.hardness]*1.0",
+            "value": "[material.hardness]*0.7+[material.flexibility]*0.3",
             "operation": "+",
             "slot": "mainhand",
             "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
@@ -78,8 +81,9 @@
         "sizeX": 3,
         "sizeY": 3
     },
-    "healthPercent": "[material.density]*2.0 + 20",
-    "armor_pen": "-[material.flexibility]*2.0 - 27",
+    "healthPercent-old": "([material.density]*2.0 + 20)/ [collect.add.module.blade_size]",
+    "armor_pen-old": "(-[material.flexibility]*2.0 - 27)/ [collect.add.module.blade_size]",
+    "slashing": "[material.hardness]",
     "displayName": "miapi.module.blade_katana.name",
     "itemId": "miapi:modular_katana"
 }

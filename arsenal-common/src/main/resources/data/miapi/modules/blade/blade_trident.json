@@ -23,6 +23,9 @@
             }
         }
     ],
+    "module_stats": {
+        "blade_size": 1
+    },
     "priority": 2,
     "repairPriority": -1,
     "enchantments": {
@@ -68,14 +71,14 @@
         },
         {
             "attribute": "miapi:generic.projectile_damage",
-            "value": "[material.hardness]*0.8",
+            "value": "([material.hardness]*0.8)/ [collect.add.module.blade_size]",
             "operation": "+",
             "slot": "mainhand",
             "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
         },
         {
             "attribute": "miapi:generic.projectile_speed",
-            "value": "2.0",
+            "value": "2.0/ [collect.add.module.blade_size]",
             "operation": "+",
             "slot": "mainhand"
         },

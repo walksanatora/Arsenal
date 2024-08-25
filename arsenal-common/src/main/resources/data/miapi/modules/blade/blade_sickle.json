@@ -23,6 +23,9 @@
             }
         }
     ],
+    "module_stats": {
+        "blade_size": 1
+    },
     "priority": 6,
     "repairPriority": -1,
     "materialProperty": [
@@ -83,7 +86,7 @@
         },
         {
             "attribute": "miapi:generic.mining_speed.hoe",
-            "value": "[material.mining_speed] * 0.5",
+            "value": "[material.mining_speed] * 0.5/ [collect.add.module.blade_size]",
             "operation": "+",
             "slot": "mainhand"
         }
@@ -97,12 +100,12 @@
     ],
     "ability_context": {
         "area_harvest_ability": {
-            "block_range": "[material.mining_level]"
+            "block_range": "[material.mining_level]/ [collect.add.module.blade_size]"
         }
     },
     "gui_stat": {
         "area_harvest_ability": {
-            "value": "[material.mining_level]",
+            "value": "[material.mining_level]/ [collect.add.module.blade_size]",
             "min": 0,
             "max": 4,
             "header": {

@@ -60,6 +60,10 @@
             }
         }
     },
+    "tag": [
+        "long_handle",
+        "no_crossbow_ammo"
+    ],
     "modelTransform": {
         "replace": {
             "thirdperson_righthand": {

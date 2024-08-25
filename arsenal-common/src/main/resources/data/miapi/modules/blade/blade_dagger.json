@@ -23,6 +23,9 @@
             }
         }
     ],
+    "module_stats": {
+        "blade_size": 1
+    },
     "enchantments": {
         "allowed": [
             "miapi:edged",
@@ -60,7 +63,7 @@
         },
         {
             "attribute": "miapi:generic.back_stab",
-            "value": "2",
+            "value": "2 / [collect.add.module.blade_size]",
             "operation": "*",
             "slot": "mainhand",
             "target_operation": "*"

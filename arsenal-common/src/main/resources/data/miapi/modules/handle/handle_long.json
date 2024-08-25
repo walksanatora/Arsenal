@@ -18,7 +18,8 @@
     },
     "tag": [
         "two_handed_handle",
-        "long_handle"
+        "long_handle",
+        "no_crossbow_ammo"
     ],
     "priority": 2,
     "repairPriority": 0,

@@ -20,6 +20,9 @@
             }
         }
     },
+    "module_stats": {
+        "blade_size": 1
+    },
     "priority": 7,
     "repairPriority": -1,
     "materialProperty": [
@@ -82,20 +85,20 @@
         },
         {
             "attribute": "miapi:generic.projectile_damage",
-            "value": "[material.hardness]*0.5 + [material.flexibility]*0.4",
+            "value": "([material.hardness]*0.5 + [material.flexibility]*0.4)/ [collect.add.module.blade_size]",
             "operation": "+",
             "slot": "mainhand",
             "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
         },
         {
             "attribute": "miapi:generic.projectile_speed",
-            "value": "1.3",
+            "value": "1.3/ [collect.add.module.blade_size]",
             "operation": "+",
             "slot": "mainhand"
         },
         {
             "attribute": "miapi:generic.projectile_accuracy",
-            "value": "1.5",
+            "value": "1.5/ [collect.add.module.blade_size]",
             "operation": "+",
             "slot": "mainhand"
         }

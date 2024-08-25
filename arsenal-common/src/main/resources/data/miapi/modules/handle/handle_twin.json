@@ -23,7 +23,8 @@
     "priority": 4,
     "repairPriority": 0,
     "tag": [
-        "twin_handle"
+        "twin_handle",
+        "no_crossbow_ammo"
     ],
     "slots": {
         "0": {
@@ -194,6 +195,7 @@
         "sizeX": 11,
         "sizeY": 11
     },
+    "material": "gold",
     "attributes": [
         {
             "attribute": "generic.attack_damage",
@@ -204,29 +206,22 @@
         },
         {
             "attribute": "generic.attack_damage",
-            "value": "0.5",
+            "value": "1/[collect.add.module.blade_size]",
             "operation": "**",
             "slot": "mainhand",
             "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
         },
         {
             "attribute": "miapi:generic.projectile_damage",
-            "value": "0.5",
+            "value": "1/[collect.add.module.blade_size]",
             "operation": "**",
             "slot": "mainhand",
             "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
         },
         {
             "attribute": "generic.attack_speed",
-            "value": "-2.6",
+            "value": "-2.5",
             "operation": "+",
-            "slot": "mainhand",
-            "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
-        },
-        {
-            "attribute": "generic.attack_speed",
-            "value": "0.10",
-            "operation": "*",
             "slot": "mainhand",
             "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
         },
@@ -239,29 +234,42 @@
         },
         {
             "attribute": "miapi:generic.mining_speed.shovel",
-            "value": "- 0.6",
+            "value": "1/[collect.add.module.blade_size]",
             "operation": "*",
             "slot": "mainhand"
         },
         {
             "attribute": "miapi:generic.mining_speed.hoe",
-            "value": "- 0.6",
+            "value": "1/[collect.add.module.blade_size]",
             "operation": "*",
             "slot": "mainhand"
         },
         {
             "attribute": "miapi:generic.mining_speed.pickaxe",
-            "value": "- 0.6",
+            "value": "1/[collect.add.module.blade_size]",
             "operation": "*",
             "slot": "mainhand"
         },
         {
             "attribute": "miapi:generic.mining_speed.axe",
-            "value": "- 0.6",
+            "value": "1/[collect.add.module.blade_size]",
             "operation": "*",
             "slot": "mainhand"
         }
     ],
+    "gui_stat": {
+        "area_harvest_ability": {
+            "value": "[collect.add.module.blade_size]",
+            "min": 0,
+            "max": 4,
+            "header": {
+                "translate": "test.blade_size"
+            },
+            "description": {
+                "translate": "miapi.ability.area_harvest_ability.description"
+            }
+        }
+    },
     "durability": "[material.durability]* 0.25",
     "isWeapon": true,
     "displayName": "miapi.module.handle_long.name",
