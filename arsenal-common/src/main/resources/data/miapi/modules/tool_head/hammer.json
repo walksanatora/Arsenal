@@ -114,5 +114,12 @@
     "tag": [
         "tool_head"
     ],
+    "itemLore": {
+        "text": {
+            "type": "translatable",
+            "translate": "arsenal.item_lore.hammer.excavate"
+        },
+        "position": "top"
+    },
     "itemId": "miapi:modular_hammer"
 }

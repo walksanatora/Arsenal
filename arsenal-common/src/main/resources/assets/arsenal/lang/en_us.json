@@ -250,6 +250,7 @@
     "miapi.module.hammer": "Hammer Head",
     "miapi.module.hammer.name": "[translation.[material.translation]]Hammer",
     "miapi.module.hammer.description": "A massive Hammer, can mine 3x3 Areas.",
+    "arsenal.item_lore.hammer.excavate": "Excavating",
 
     "miapi.module.axe_cutter": "Lumber Axe",
     "miapi.module.axe_cutter.name": "[translation.[material.translation]]Lumber Axe",
