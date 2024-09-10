@@ -65,7 +65,7 @@
         }
     ],
     "module_stats": {
-        "blade_size": 0.7
+        "blade_size": 1.0
     },
     "priority": 3,
     "repairPriority": -1,
@@ -137,7 +137,7 @@
         },
         {
             "attribute": "generic.attack_speed",
-            "value": "min(4,([material.hardness]-2)) - ceil(max(0,min(1, ([material.density] - [material.hardness]) ))) - 1.5",
+            "value": "(min(4,([material.hardness]-2)) - ceil(max(0,min(1, ([material.density] - [material.hardness]) ))) - 1.5) * [collect.add.module.blade_size]",
             "operation": "+",
             "slot": "mainhand",
             "uuid": "FA233E1C-4180-4865-B01B-BCCE9785ACA3"
