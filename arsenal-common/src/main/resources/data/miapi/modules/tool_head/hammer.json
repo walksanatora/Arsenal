@@ -53,7 +53,7 @@
                 "type": "pickaxe"
             },
             "modifiers": {
-                "require_same": true
+                "require_faster": true
             },
             "collapseMode": {
                 "type": "staggered",
