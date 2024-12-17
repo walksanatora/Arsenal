@@ -11,21 +11,21 @@ logoFile="icon.png" #optional
 credits="${credits}" #optional
 authors="${mod_author}" #optional
 description='''${mod_description}'''
-[[dependencies.arsenal]] #optional
+[[dependencies.${mod_id}]] #optional
    modId="forge" #mandatory
    mandatory=true #mandatory
    versionRange="${forge_version_range}" #mandatory
    ordering="NONE"
    side="BOTH"
-[[dependencies.arsenal]]
+[[dependencies.${mod_id}]]
    modId="minecraft"
    mandatory=true
    versionRange="[${minecraft_version},)"
    ordering="NONE"
    side="BOTH"
-[[dependencies.arsenal]]
+[[dependencies.${mod_id}]]
    modId="miapi"
    mandatory=true
    versionRange="[${miapi_version},)"
-   ordering="NONE"
+   ordering="AFTER"
    side="BOTH"
